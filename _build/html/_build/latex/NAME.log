@@ -1,0 +1,4443 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.2.7)  14 FEB 2020 11:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**NAME.tex
+(./NAME.tex
+LaTeX2e <2019-10-01> patch level 1
+(./sphinxmanual.cls
+Document Class: sphinxmanual 2019/12/01 v2.3.0 Document class (Sphinx manual)
+(/usr/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+LaTeX Info: Redefining \and on input line 35.
+)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+2500 (decimal 9472)
+   defining Unicode char U+2502 (decimal 9474)
+   defining Unicode char U+2514 (decimal 9492)
+   defining Unicode char U+251C (decimal 9500)
+   defining Unicode char U+2572 (decimal 9586)
+
+(/usr/share/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
+)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)<<t1.cmap>>)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2019/04/01 v2.17c AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2855.
+LaTeX Info: Redefining \] on input line 2856.
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/10/15 3.35 The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/10/15 3.35 Babel switching mechanism
+)
+(/usr/share/texmf-dist/tex/generic/babel-icelandic/icelandic.ldf
+Language: icelandic 2019/07/04 v1.3 Icelandic support from the babel system
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/10/15 3.35 Babel common definitions
+\babel@savecnt=\count101
+\U@D=\dimen112
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count102
+)
+Package babel Info: Making " an active character on input line 127.
+\pl@left=\dimen113
+\pl@down=\dimen114
+\pl@right=\dimen115
+\pl@temp=\dimen116
+))
+(/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip46
+\mylen=\skip47
+\myhi=\skip48
+\px=\skip49
+\py=\skip50
+\pyy=\skip51
+\pxx=\skip52
+) (./sphinx.sty
+Package: sphinx 2019/09/02 v2.3.0 LaTeX package (Sphinx markup)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
+)
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
+\ttl@plus=\dimen119
+\ttl@minus=\dimen120
+\ttl@toksa=\toks22
+\titlewidth=\dimen121
+\titlewidthlast=\dimen122
+\titlewidthfirst=\dimen123
+)
+(/usr/share/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen124
+\ar@mcellbox=\box30
+\extrarowheight=\dimen125
+\NC@list=\toks23
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box31
+)
+\TY@count=\count103
+\TY@linewidth=\dimen126
+\tymin=\dimen127
+\tymax=\dimen128
+\TY@tablewidth=\dimen129
+)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count104
+\LTcapwidth=\dimen130
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
+\LT@cols=\count105
+\LT@rows=\count106
+\c@LT@tables=\count107
+\c@LT@chunks=\count108
+\LT@p@ftn=\toks24
+)
+(/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box36
+\sift@deathcycles=\count109
+\@vwid@loff=\dimen131
+\@vwid@roff=\dimen132
+) (./sphinxmulticell.sty
+Package: sphinxmulticell 2017/02/23 v1.6 better span rows and columns of a tabl
+e (Sphinx team)
+\sphinx@TY@tablewidth=\dimen133
+) (/usr/share/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip70
+\fb@frw=\dimen134
+\fb@frh=\dimen135
+\FrameRule=\dimen136
+\FrameSep=\dimen137
+)
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2019/10/22
+
+Style option: `fancyvrb' v3.3 <2019/10/22> (tvz)
+\FV@CodeLineNo=\count110
+\FV@InFile=\read1
+\FV@TabBox=\box37
+\c@FancyVerbLine=\count111
+\FV@StepNumber=\count112
+\FV@OutFile=\write3
+) (./footnotehyper-sphinx.sty
+Package: footnotehyper-sphinx 2017/10/27 v1.7 hyperref aware footnote.sty for s
+phinx (JFB)
+\FNH@notes=\box38
+\FNH@width=\dimen138
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count113
+\float@exts=\toks25
+\float@box=\box39
+\@float@everytoks=\toks26
+\@floatcapt=\box40
+)
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen139
+\WF@size=\dimen140
+\c@WF@wrappedlines=\count114
+\WF@box=\box41
+\WF@everypar=\toks27
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
+Rollback for package 'parskip' requested -> version 'v1'.
+         This corresponds to the release introduced on 2001-04-09.
+
+(/usr/share/texmf-dist/tex/latex/parskip/parskip-2001-04-09.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+))
+(/usr/share/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/share/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)
+(/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+(./sphinxhighlight.sty
+Package: sphinxhighlight 2016/05/29 stylesheet for highlighting with pygments
+) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+\sphinxverbatimsep=\dimen141
+\sphinxverbatimborder=\dimen142
+\sphinxshadowsep=\dimen143
+\sphinxshadowsize=\dimen144
+\sphinxshadowrule=\dimen145
+\spx@notice@border=\dimen146
+\spx@image@maxheight=\dimen147
+\spx@image@box=\dimen148
+\c@literalblock=\count115
+\sphinxcontinuationbox=\box42
+\sphinxvisiblespacebox=\box43
+\sphinxVerbatim@TitleBox=\box44
+\sphinxVerbatim@ContentsBox=\box45
+\py@argswidth=\skip71
+\lineblockindentation=\skip72
+\DUlineblockindent=\skip73
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count116
+\Gm@cntv=\count117
+\c@Gm@tempcnt=\count118
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks28
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen157
+\Hy@linkcounter=\count119
+\Hy@pagecounter=\count120
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count121
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4414.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2019/09/28 v7.00a Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4414.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4414.
+Package hyperref Info: Hyper figures OFF on input line 4540.
+Package hyperref Info: Link nesting OFF on input line 4545.
+Package hyperref Info: Hyper index ON on input line 4548.
+Package hyperref Info: Plain pages OFF on input line 4555.
+Package hyperref Info: Backreferencing OFF on input line 4560.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4793.
+\c@Hy@tempcnt=\count122
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5152.
+\XeTeXLinkMargin=\dimen158
+\Fld@menulength=\count123
+\Field@Width=\dimen159
+\Fld@charsize=\dimen160
+Package hyperref Info: Hyper figures OFF on input line 6423.
+Package hyperref Info: Link nesting OFF on input line 6428.
+Package hyperref Info: Hyper index ON on input line 6431.
+Package hyperref Info: backreferencing OFF on input line 6438.
+Package hyperref Info: Link coloring ON on input line 6441.
+Package hyperref Info: Link coloring with OCG OFF on input line 6448.
+Package hyperref Info: PDF/A mode OFF on input line 6453.
+LaTeX Info: Redefining \ref on input line 6493.
+LaTeX Info: Redefining \pageref on input line 6497.
+\Hy@abspage=\count124
+\c@Item=\count125
+\c@Hfootnote=\count126
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
+\Fld@listcount=\count127
+\c@bookmark@seq@number=\count128
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip74
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+) (./sphinxmessages.sty
+Package: sphinxmessages 2019/01/04 v2.0 Localized LaTeX macros (Sphinx team)
+)
+\@indexfile=\write4
+\openout4 = `NAME.idx'.
+
+
+Writing index file NAME.idx
+No file NAME.aux.
+\openout1 = `NAME.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+6.
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 86
+.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen161
+\scratchbox=\box46
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen162
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks30
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=36.135pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box47
+Package hyperref Info: Link coloring ON on input line 86.
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count135
+)
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
+\@outlinefile=\write5
+\openout5 = `NAME.out'.
+
+Package hyperref Info: Option `pageanchor' set `false' on input line 94.
+<hi_horiz_raunvisindadeild.png, id=5, 270.25969pt x 79.79813pt>
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 94
+.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+File: hi_horiz_raunvisindadeild.png Graphic file (type png)
+<use hi_horiz_raunvisindadeild.png>
+Package pdftex.def Info: hi_horiz_raunvisindadeild.png  used on input line 94.
+(pdftex.def)             Requested size: 270.25902pt x 79.79791pt.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 94
+.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./hi_horiz_raunvisindadeil
+d.png>] [2
+
+
+]
+\tf@toc=\write6
+\openout6 = `NAME.toc'.
+
+ [1
+
+] [2
+
+]
+Kafli 1.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 105.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+21.
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1
+
+]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 ...[width=0.750\linewidth]{{mynd-mengi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 ...[width=0.750\linewidth]{{mynd-mengi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+LaTeX Warning: Hyper reference `Kafli04:s-mengi' on page 2 undefined on input l
+ine 153.
+
+
+LaTeX Warning: Hyper reference `Kafli04:s-hlutmengi' on page 2 undefined on inp
+ut line 153.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 176.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 12.85497pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2]
+<frumtölur.png, id=59, 896.34875pt x 559.08875pt>
+File: frumtölur.png Graphic file (type png)
+<use frumtölur.png>
+Package pdftex.def Info: frumtölur.png  used on input line 268.
+(pdftex.def)             Requested size: 452.9679pt x 282.52953pt.
+ [3] [4 <./frumtölur.png>]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.313 ...width=0.750\linewidth]{{frumthattun}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.313 ...width=0.750\linewidth]{{frumthattun}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.332 ...ics[width=0.600\linewidth]{{frth270}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.332 ...ics[width=0.600\linewidth]{{frth270}.svg}
+                                                  
+? 
+[5] [6] [7] [8] [9] [10] [11] [12]
+! Undefined control sequence.
+<argument> \split@tag \begin {split}\sout 
+                                          {14}\end {split}
+l.856 \begin{split}\sout{14}\end{split}
+                                       
+? 
+! Undefined control sequence.
+<argument> \split@tag \begin {split}\sout 
+                                          {14}\end {split}
+l.856 \begin{split}\sout{14}\end{split}
+                                       
+? 
+[13] [14]
+Kafli 2.
+[15
+
+] [16] [17] [18] [19] [20] [21] [22] [23] [24]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1588 ...th=1.100\linewidth]{{mynd-algildi2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1588 ...th=1.100\linewidth]{{mynd-algildi2}.svg}
+                                                  \hspace*{\fill}}
+? 
+[25] [26] [27] [28]
+Kafli 3.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1793 ...width=0.900\linewidth]{{hnitakerfi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1793 ...width=0.900\linewidth]{{hnitakerfi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1802 ...hics[width=0.700\linewidth]{{fjarl}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1802 ...hics[width=0.700\linewidth]{{fjarl}.svg}
+                                                  \hspace*{\fill}}
+? 
+[29
+
+]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1878 ...phics[width=0.600\linewidth]{{lina}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1878 ...phics[width=0.600\linewidth]{{lina}.svg}
+                                                  \hspace*{\fill}}
+? 
+[30]
+
+LaTeX Warning: File `./myndir/ggbjafnalinu.png' not found on input line 1903.
+
+
+! Package pdftex.def Error: File `"./myndir/""ggbjafnalinu".png' not found: usi
+ng draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1903 ...ctratio=true]{./myndir/ggbjafnalinu.png}
+                                                  
+? 
+[31]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1945 ...[width=0.750\linewidth]{{hallatala}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1945 ...[width=0.750\linewidth]{{hallatala}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1971 ...th=0.750\linewidth]{{neg-hallatala}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1971 ...th=0.750\linewidth]{{neg-hallatala}.svg}
+                                                  \hspace*{\fill}}
+? 
+[32]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1986 ...idth=0.500\linewidth]{{almenn-lina}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1986 ...idth=0.500\linewidth]{{almenn-lina}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2018 ...h=0.700\linewidth]{{mynd-linudaemi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2018 ...h=0.700\linewidth]{{mynd-linudaemi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2034 ...ics[width=0.700\linewidth]{{samsid}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2034 ...ics[width=0.700\linewidth]{{samsid}.svg}
+                                                  \hspace*{\fill}}
+? 
+[33]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2046 ...hics[width=0.700\linewidth]{{prepd}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2046 ...hics[width=0.700\linewidth]{{prepd}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2068 ...=0.400\linewidth]{{mynd-linudaemi2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2068 ...=0.400\linewidth]{{mynd-linudaemi2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2078 ...ics[width=0.500\linewidth]{{midpkt}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2078 ...ics[width=0.500\linewidth]{{midpkt}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2089 ...width=0.700\linewidth]{{keilusnið}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2089 ...width=0.700\linewidth]{{keilusnið}.svg}
+                                                  
+? 
+[34]
+
+LaTeX Warning: Hyper reference `Kafli06:s-annarsstigs' on page 35 undefined on 
+input line 2117.
+
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2149 ...idth=0.400\linewidth]{{parabolapos}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2149 ...idth=0.400\linewidth]{{parabolapos}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...idth=0.400\linewidth]{{parabolaneg}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...idth=0.400\linewidth]{{parabolaneg}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2188 ...ics[width=0.600\linewidth]{{fleygb}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2188 ...ics[width=0.600\linewidth]{{fleygb}.svg}
+                                                  
+? 
+[35]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2203 ...cs[width=0.500\linewidth]{{speglun}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2203 ...cs[width=0.500\linewidth]{{speglun}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2212 ...h=0.500\linewidth]{{parabolabrenni}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2212 ...h=0.500\linewidth]{{parabolabrenni}.svg}
+                                                  
+? 
+<Satellite_dish.jpg, id=277, 546.04pt x 512.91624pt>
+File: Satellite_dish.jpg Graphic file (type jpg)
+<use Satellite_dish.jpg>
+Package pdftex.def Info: Satellite_dish.jpg  used on input line 2218.
+(pdftex.def)             Requested size: 226.48395pt x 212.7467pt.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2246 ...width=0.800\linewidth]{{sporaskja1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2246 ...width=0.800\linewidth]{{sporaskja1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2258 ...width=0.700\linewidth]{{sporaskja2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2258 ...width=0.700\linewidth]{{sporaskja2}.svg}
+                                                  
+? 
+[36 <./Satellite_dish.jpg>]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2275 ...width=0.700\linewidth]{{sporaskja3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2275 ...width=0.700\linewidth]{{sporaskja3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2279 ...width=0.700\linewidth]{{sporaskja4}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2279 ...width=0.700\linewidth]{{sporaskja4}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .gif.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2301 ....500\linewidth]{{Kepler-second-law}.gif}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .gif.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2301 ....500\linewidth]{{Kepler-second-law}.gif}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2313 ...0.500\linewidth]{{sporbaugurbrenni}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2313 ...0.500\linewidth]{{sporbaugurbrenni}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2327 ...cs[width=0.500\linewidth]{{hringur}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2327 ...cs[width=0.500\linewidth]{{hringur}.svg}
+                                                  
+? 
+[37]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2356 ...cs[width=0.400\linewidth]{{fl_rett}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2356 ...cs[width=0.400\linewidth]{{fl_rett}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2364 ...cs[width=0.400\linewidth]{{fl_sams}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2364 ...cs[width=0.400\linewidth]{{fl_sams}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2372 ...s[width=0.400\linewidth]{{fl_hring}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2372 ...s[width=0.400\linewidth]{{fl_hring}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2380 ...cs[width=0.400\linewidth]{{fl_spor}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2380 ...cs[width=0.400\linewidth]{{fl_spor}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2388 ...s[width=0.400\linewidth]{{fl_thri1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2388 ...s[width=0.400\linewidth]{{fl_thri1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2400 ...cs[width=0.400\linewidth]{{fl_kula}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2400 ...cs[width=0.400\linewidth]{{fl_kula}.svg}
+                                                  
+? 
+[38] [39] [40
+
+]
+Kafli 4.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2417 ...ics[width=0.600\linewidth]{{mengiA}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2417 ...ics[width=0.600\linewidth]{{mengiA}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2447 ...[width=0.600\linewidth]{{hlutmengi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2447 ...[width=0.600\linewidth]{{hlutmengi}.svg}
+                                                  \hspace*{\fill}}
+? 
+[41]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2527 ...[width=1.000\linewidth]{{snidmengi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2527 ...[width=1.000\linewidth]{{snidmengi}.svg}
+                                                  \hspace*{\fill}}
+? 
+[42]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2571 ...width=0.450\linewidth]{{fyllimengi}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2571 ...width=0.450\linewidth]{{fyllimengi}.svg}
+                                                  \hspace*{\fill}}
+? 
+[43] [44] [45]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2708 ...aphics[width=0.500\linewidth]{{bil}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2708 ...aphics[width=0.500\linewidth]{{bil}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2755 ...idth=0.600\linewidth]{{endanlegbil}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2755 ...idth=0.600\linewidth]{{endanlegbil}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2783 ...dth=0.600\linewidth]{{oendanlegbil}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2783 ...dth=0.600\linewidth]{{oendanlegbil}.svg}
+                                                  \hspace*{\fill}}
+? 
+[46]
+Kafli 5.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2815 ...ics[width=0.500\linewidth]{{vorpun}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2815 ...ics[width=0.500\linewidth]{{vorpun}.svg}
+                                                  \hspace*{\fill}}
+? 
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2818.
+[47
+
+] [48]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2903 ...fill}\sphinxincludegraphics{{graf1}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2903 ...fill}\sphinxincludegraphics{{graf1}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2925 ...fill}\sphinxincludegraphics{{graf2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2925 ...fill}\sphinxincludegraphics{{graf2}.svg}
+                                                  \hspace*{\fill}}
+? 
+[49]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2950 ...ill}\sphinxincludegraphics{{jafnst}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2950 ...ill}\sphinxincludegraphics{{jafnst}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2954 ...fill}\sphinxincludegraphics{{oddst}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2954 ...fill}\sphinxincludegraphics{{oddst}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3007 ...ics[width=0.450\linewidth]{{vaxmin}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3007 ...ics[width=0.450\linewidth]{{vaxmin}.svg}
+                                                  \hspace*{\fill}}
+? 
+[50]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3040 ...l}\sphinxincludegraphics{{einhalla}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3040 ...l}\sphinxincludegraphics{{einhalla}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3046 ...}\sphinxincludegraphics{{einhalla2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3046 ...}\sphinxincludegraphics{{einhalla2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3070 ...ics[width=0.600\linewidth]{{gaffal}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3070 ...ics[width=0.600\linewidth]{{gaffal}.svg}
+                                                  
+? 
+[51]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3103 ...ndent\sphinxincludegraphics{{lotub}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3103 ...ndent\sphinxincludegraphics{{lotub}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3131 ...[width=0.700\linewidth]{{andhverfa}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3131 ...[width=0.700\linewidth]{{andhverfa}.svg}
+                                                  \hspace*{\fill}}
+? 
+[52] [53]
+
+LaTeX Warning: Hyper reference `Kafli09:s-meiraumfoll' on page 54 undefined on 
+input line 3246.
+
+[54]
+Kafli 6.
+[55
+
+]
+
+LaTeX Warning: Hyper reference `Kafli02:s-jofnur' on page 56 undefined on input
+ line 3325.
+
+
+LaTeX Warning: Hyper reference `Kafli02:s-annars-stigs-jofnur' on page 56 undef
+ined on input line 3350.
+
+[56]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3425 ...[width=0.600\linewidth]{{mdeilingA}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3425 ...[width=0.600\linewidth]{{mdeilingA}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3431 ...[width=0.600\linewidth]{{mdeilingB}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3431 ...[width=0.600\linewidth]{{mdeilingB}.svg}
+                                                  \hspace*{\fill}}
+? 
+[57]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3436 ...[width=0.600\linewidth]{{mdeilingC}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3436 ...[width=0.600\linewidth]{{mdeilingC}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3441 ...[width=0.600\linewidth]{{mdeilingD}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3441 ...[width=0.600\linewidth]{{mdeilingD}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3453 ...[width=0.600\linewidth]{{mdeiling2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3453 ...[width=0.600\linewidth]{{mdeiling2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+LaTeX Warning: Hyper reference `Kafli06:s-daemi' on page 58 undefined on input 
+line 3486.
+
+[58] [59]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3571 ...cs[width=0.500\linewidth]{{longud1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3571 ...cs[width=0.500\linewidth]{{longud1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3585 ...cs[width=0.400\linewidth]{{longud2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3585 ...cs[width=0.400\linewidth]{{longud2}.svg}
+                                                  
+? 
+[60] [61] [62]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3739 ...ics[width=0.800\linewidth]{{pascal}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3739 ...ics[width=0.800\linewidth]{{pascal}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3745 ...cs[width=0.800\linewidth]{{pascal2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3745 ...cs[width=0.800\linewidth]{{pascal2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3766 ...cs[width=0.600\linewidth]{{pascald}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3766 ...cs[width=0.600\linewidth]{{pascald}.svg}
+                                                  
+? 
+[63]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3848 ...[width=1.100\linewidth]{{pascalbin}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3848 ...[width=1.100\linewidth]{{pascalbin}.svg}
+                                                  \hspace*{\fill}}
+? 
+[64] [65] [66
+
+]
+Kafli 7.
+<mynd1.png, id=479, 171.28929pt x 137.97pt>
+File: mynd1.png Graphic file (type png)
+<use mynd1.png>
+Package pdftex.def Info: mynd1.png  used on input line 3876.
+(pdftex.def)             Requested size: 171.28886pt x 137.96965pt.
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3881.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3881.
+
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3881.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3881.
+
+Missing character: There is no � in font cmr10!
+[67 <./mynd1.png>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3892.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3892.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3892.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3892.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3892.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3892.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3892.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3892.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3905.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3905.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3905.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3905.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3905.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3905.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3905.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3905.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3919.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3919.
+
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3919.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3919.
+
+Missing character: There is no � in font cmr10!
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3938 ...fill}\sphinxincludegraphics{{alpha}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3938 ...fill}\sphinxincludegraphics{{alpha}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3945 ...hics[width=0.700\linewidth]{{mynd2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3945 ...hics[width=0.700\linewidth]{{mynd2}.svg}
+                                                  \hspace*{\fill}}
+? 
+[68]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3959 ...[width=0.500\linewidth]{{sohcahtoa}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3959 ...[width=0.500\linewidth]{{sohcahtoa}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4011 ...nxincludegraphics{{einingarhringur}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4011 ...nxincludegraphics{{einingarhringur}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4026.
+
+Missing character: There is no � in font cmr10!
+[69]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4031.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4031.
+
+Missing character: There is no � in font cmr10!
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4033 ...[width=0.700\linewidth]{{triangle1}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4033 ...[width=0.700\linewidth]{{triangle1}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4035.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4035.
+
+Missing character: There is no � in font cmr10!
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4037 ...[width=0.700\linewidth]{{triangle2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4037 ...[width=0.700\linewidth]{{triangle2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4039.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4039.
+
+Missing character: There is no � in font cmr10!
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4041 ...[width=0.700\linewidth]{{triangle3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4041 ...[width=0.700\linewidth]{{triangle3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4058 ...hics[width=1.200\linewidth]{{mynd3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4058 ...hics[width=1.200\linewidth]{{mynd3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4060 ...hics[width=1.200\linewidth]{{mynd4}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4060 ...hics[width=1.200\linewidth]{{mynd4}.svg}
+                                                  \hspace*{\fill}}
+? 
+[70]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4104 ...hics[width=1.200\linewidth]{{mynd5}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4104 ...hics[width=1.200\linewidth]{{mynd5}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4117 ...hics[width=1.200\linewidth]{{mynd6}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4117 ...hics[width=1.200\linewidth]{{mynd6}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4141 ...hics[width=0.500\linewidth]{{mynd7}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4141 ...hics[width=0.500\linewidth]{{mynd7}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4163 ...hics[width=0.500\linewidth]{{mynd8}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4163 ...hics[width=0.500\linewidth]{{mynd8}.svg}
+                                                  \hspace*{\fill}}
+? 
+[71]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4192 ...phics[width=0.500\linewidth]{{astc}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4192 ...phics[width=0.500\linewidth]{{astc}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4232 ...ar lausnir \(x\) fyrir öll \(a \in [−
+                                                  1, 1]\).
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4233 ...} af þessum lausnum er á bilinu \([−
+                                                  \pi/2, \pi/2]\).
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4238 ...s að \(x_0\) sé talan af bilinu \([−
+                                                  \pi/2, \pi/2]\) sem uppfyl...
+
+? 
+[72]
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4244 ...{fyrir öll } x \in [−1, 1]\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4244 ...{fyrir öll } x \in [−1, 1]\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4260 \(\arcsin: \; [-1,1] \rightarrow [−
+                                            \pi/2, \pi/2]\) er fallið sem u...
+
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4262 ...fyrir öll  } x \in [−1, 1]\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4262 ...fyrir öll  } x \in [−1, 1]\end{split}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4268 ...ics[width=0.500\linewidth]{{arcsin}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4268 ...ics[width=0.500\linewidth]{{arcsin}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4282 ...s[width=1.000\linewidth]{{hringad1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4282 ...s[width=1.000\linewidth]{{hringad1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4297 ...[width=1.000\linewidth]{{hringad1a}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4297 ...[width=1.000\linewidth]{{hringad1a}.svg}
+                                                  \hspace*{\fill}}
+? 
+[73]
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4305 ...yrir öll  } x \in [−1, 1].\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4305 ...yrir öll  } x \in [−1, 1].\end{split}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4311 ...ics[width=0.500\linewidth]{{arccos}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4311 ...ics[width=0.500\linewidth]{{arccos}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4325 ...s[width=1.000\linewidth]{{hringad2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4325 ...s[width=1.000\linewidth]{{hringad2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4348 ...[width=1.000\linewidth]{{hringad2a}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4348 ...[width=1.000\linewidth]{{hringad2a}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4354 ...an: \; [-\infty,\infty] \rightarrow [−
+                                                  \pi/2, \pi/2]\) er fallið...
+
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4356 ...  } x \in [−\infty, \infty]\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4356 ...  } x \in [−\infty, \infty]\end{split}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4362 ...ics[width=0.500\linewidth]{{arctan}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4362 ...ics[width=0.500\linewidth]{{arctan}.svg}
+                                                  \hspace*{\fill}}
+? 
+[74]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4391 ...s[width=1.000\linewidth]{{hringad3}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4391 ...s[width=1.000\linewidth]{{hringad3}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4400 ...[width=1.000\linewidth]{{hringad3a}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4400 ...[width=1.000\linewidth]{{hringad3a}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4419 ...\sphinxincludegraphics{{pythagoras}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4419 ...\sphinxincludegraphics{{pythagoras}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4437 ...ics[width=0.500\linewidth]{{thrihr}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4437 ...ics[width=0.500\linewidth]{{thrihr}.svg}
+                                                  
+? 
+[75] [76] [77] [78]
+Kafli 8.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4603 ...hics[width=0.600\linewidth]{{vigur}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4603 ...hics[width=0.600\linewidth]{{vigur}.svg}
+                                                  
+? 
+[79
+
+]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4636 ...th=0.600\linewidth]{{vigurtveirpkt}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4636 ...th=0.600\linewidth]{{vigurtveirpkt}.svg}
+                                                  
+? 
+[80]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4698 ...width=0.600\linewidth]{{mynd-vigur}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4698 ...width=0.600\linewidth]{{mynd-vigur}.svg}
+                                                  
+? 
+
+! Package amsmath Error: \begin{gather} allowed only in paragraph mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4718 \end{gather}\end{split}
+                              
+? 
+
+! Package amsmath Error: \begin{gather} allowed only in paragraph mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4718 \end{gather}\end{split}
+                              
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4723 ...h=0.600\linewidth]{{einingarvigrar}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4723 ...h=0.600\linewidth]{{einingarvigrar}.svg}
+                                                  
+? 
+[81]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4754 ...=0.600\linewidth]{{vigrasamlagning}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4754 ...=0.600\linewidth]{{vigrasamlagning}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4806 ...s[width=0.500\linewidth]{{innskots}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4806 ...s[width=0.500\linewidth]{{innskots}.svg}
+                                                  
+? 
+[82]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4861 ...s[width=0.600\linewidth]{{innfeldi}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4861 ...s[width=0.600\linewidth]{{innfeldi}.svg}
+                                                  
+? 
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4884.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4884.
+
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4884.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4884.
+
+Missing character: There is no � in font cmr10!
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4902 ...width=0.600\linewidth]{{krossfeldi}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4902 ...width=0.600\linewidth]{{krossfeldi}.svg}
+                                                  
+? 
+[83]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4911 ...aphics[width=0.900\linewidth]{{hhr}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4911 ...aphics[width=0.900\linewidth]{{hhr}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4946 ...s[width=0.400\linewidth]{{fl_thri2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4946 ...s[width=0.400\linewidth]{{fl_thri2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4955 ...s[width=0.400\linewidth]{{fl_sams2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4955 ...s[width=0.400\linewidth]{{fl_sams2}.svg}
+                                                  
+? 
+[84] [85] [86
+
+]
+Kafli 9.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4978 ...h=0.600\linewidth]{{andhv_parabola}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4978 ...h=0.600\linewidth]{{andhv_parabola}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5000 ...[width=0.700\linewidth]{{anhv_lina}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5000 ...[width=0.700\linewidth]{{anhv_lina}.svg}
+                                                  \hspace*{\fill}}
+? 
+[87]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5017 ...ics[width=0.500\linewidth]{{andhv3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5017 ...ics[width=0.500\linewidth]{{andhv3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5039 ...ics[width=0.700\linewidth]{{andhv2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5039 ...ics[width=0.700\linewidth]{{andhv2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5075 ...hics[width=0.700\linewidth]{{ataek}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5075 ...hics[width=0.700\linewidth]{{ataek}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5081 ...[width=0.700\linewidth]{{ekkiataek}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5081 ...[width=0.700\linewidth]{{ekkiataek}.svg}
+                                                  \hspace*{\fill}}
+? 
+[88]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5130 ...cs[width=0.700\linewidth]{{eintaek}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5130 ...cs[width=0.700\linewidth]{{eintaek}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5136 ...idth=0.700\linewidth]{{ekkieintaek}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5136 ...idth=0.700\linewidth]{{ekkieintaek}.svg}
+                                                  \hspace*{\fill}}
+? 
+[89]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5180 ...s[width=0.700\linewidth]{{gagntaek}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5180 ...s[width=0.700\linewidth]{{gagntaek}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5208 ...width=1.000\linewidth]{{compvorpun}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5208 ...width=1.000\linewidth]{{compvorpun}.svg}
+                                                  \hspace*{\fill}}
+? 
+[90]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5254 ...fill}\sphinxincludegraphics{{visis}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5254 ...fill}\sphinxincludegraphics{{visis}.svg}
+                                                  \hspace*{\fill}}
+? 
+[91] [92]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5384 ...graphics[width=0.700\linewidth]{{e}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5384 ...graphics[width=0.700\linewidth]{{e}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5393 ...raphics[width=0.700\linewidth]{{ln}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5393 ...raphics[width=0.700\linewidth]{{ln}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5397 ...hics[width=0.700\linewidth]{{lnoge}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5397 ...hics[width=0.700\linewidth]{{lnoge}.svg}
+                                                  \hspace*{\fill}}
+? 
+[93]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5469 ...s[width=1.000\linewidth]{{adfellur}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5469 ...s[width=1.000\linewidth]{{adfellur}.svg}
+                                                  \hspace*{\fill}}
+? 
+[94] [95]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5615 ...[width=0.800\linewidth]{{rflongdiv}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5615 ...[width=0.800\linewidth]{{rflongdiv}.svg}
+                                                  \hspace*{\fill}}
+? 
+[96]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5689 ...s[width=0.700\linewidth]{{hlidrun1}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5689 ...s[width=0.700\linewidth]{{hlidrun1}.svg}
+                                                  \hspace*{\fill}}
+? 
+[97]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5705 ...s[width=1.000\linewidth]{{hlidrun2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5705 ...s[width=1.000\linewidth]{{hlidrun2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+LaTeX Warning: Hyper reference `Kafli07:s-hornafoll' on page 98 undefined on in
+put line 5707.
+
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5717 ...s[width=0.500\linewidth]{{speglunx}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5717 ...s[width=0.500\linewidth]{{speglunx}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5724 ...s[width=0.500\linewidth]{{spegluny}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5724 ...s[width=0.500\linewidth]{{spegluny}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5746 ...s[width=1.000\linewidth]{{strikkun}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5746 ...s[width=1.000\linewidth]{{strikkun}.svg}
+                                                  \hspace*{\fill}}
+? 
+[98] [99] [100
+
+]
+Kafli 10.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5784 ...aphics[width=0.600\linewidth]{{sin}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5784 ...aphics[width=0.600\linewidth]{{sin}.svg}
+                                                  
+? 
+[101]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5866 ...raphics[width=0.700\linewidth]{{hv}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5866 ...raphics[width=0.700\linewidth]{{hv}.svg}
+                                                  
+? 
+[102]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5897 ...ndent\sphinxincludegraphics{{markg}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5897 ...ndent\sphinxincludegraphics{{markg}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5905 ...dent\sphinxincludegraphics{{markg2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5905 ...dent\sphinxincludegraphics{{markg2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5960 ...s[width=0.700\linewidth]{{mkgexmp1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5960 ...s[width=0.700\linewidth]{{mkgexmp1}.svg}
+                                                  
+? 
+[103]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5976 ...cs[width=0.700\linewidth]{{mkgexmp}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5976 ...cs[width=0.700\linewidth]{{mkgexmp}.svg}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5981 ...til sé \(\delta>0\) þannig að \(|x−
+                                                  4|<\delta\) hafi í för m...
+
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5981 ...ta\) hafi í för með sér að \(| x−
+                                                  2|<\epsilon\). Látum \(\d...
+
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5982 Þá fæst að ef \(|x −
+                                  4| < \delta\) þá er
+? 
+[104]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6050 ...cs[width=0.400\linewidth]{{xminusn}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6050 ...cs[width=0.400\linewidth]{{xminusn}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6092 ...ics[width=0.400\linewidth]{{daemi2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6092 ...ics[width=0.400\linewidth]{{daemi2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6110 ...ics[width=1.000\linewidth]{{daemi3}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6110 ...ics[width=1.000\linewidth]{{daemi3}.svg}
+                                                  
+? 
+[105] [106]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6185 ...ics[width=1.000\linewidth]{{daemi1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6185 ...ics[width=1.000\linewidth]{{daemi1}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6204 ...fill}\sphinxincludegraphics{{tutor}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6204 ...fill}\sphinxincludegraphics{{tutor}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6216 ...ent\sphinxincludegraphics{{samfell}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6216 ...ent\sphinxincludegraphics{{samfell}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6224 ...nt\sphinxincludegraphics{{samfell2}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6224 ...nt\sphinxincludegraphics{{samfell2}.svg}
+                                                  
+? 
+[107] [108]
+Kafli 11.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6347 ...\fill}\sphinxincludegraphics{{bill}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6347 ...\fill}\sphinxincludegraphics{{bill}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6367 ...um til átta sekúndur er þá \(320 −
+                                                   80 = 240\) metrar.
+? 
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6368 ...in á þessu tímabili er fjórar sekú
+                                                  ndur. Meðalhraði bílsin...
+
+? 
+[109
+
+]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6375 ...fill}\sphinxincludegraphics{{bill1}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6375 ...fill}\sphinxincludegraphics{{bill1}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6382 ... á því tímabili er \(5 \cdot 6^2 −
+                                                  5 \cdot 4^2 = 100\) metrar.
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6383 Lengdin á tímabilinu er \(6 −
+                                         4 = 2\) sekúndur. Meðalhraði bí...
+
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6390 ...fill}\sphinxincludegraphics{{bill2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6390 ...fill}\sphinxincludegraphics{{bill2}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6403 ...fill}\sphinxincludegraphics{{bill3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6403 ...fill}\sphinxincludegraphics{{bill3}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6432 ...c{5t^2−5 \cdot 4^2}{ t−4}\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6432 ...c{5t^2−5 \cdot 4^2}{ t−4}\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6432 ...c{5t^2−5 \cdot 4^2}{ t−4}\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6432 ...c{5t^2−5 \cdot 4^2}{ t−4}\end{split}
+                                                  
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6443 \end{aligned}\end{split}
+                               
+? 
+[110]
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6477 ...fill}\sphinxincludegraphics{{bill4}.svg}
+                                                  \hspace*{\fill}}
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6477 ...fill}\sphinxincludegraphics{{bill4}.svg}
+                                                  \hspace*{\fill}}
+? 
+[111] [112] [113] [114] [115] [116
+
+]
+Kafli 12.
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6843 ...cs[width=0.700\linewidth]{{threpun}.svg}
+                                                  
+? 
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6843 ...cs[width=0.700\linewidth]{{threpun}.svg}
+                                                  
+? x
+ 
+Here is how much of TeX's memory you used:
+ 14788 strings out of 492167
+ 201699 string characters out of 6131559
+ 300006 words of memory out of 5000000
+ 18287 multiletter control sequences out of 15000+600000
+ 64580 words of font info for 92 fonts, out of 8000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 42i,30n,49p,567b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msbm7.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></
+usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist
+/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf-dist/fonts/type1/urw/he
+lvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
+/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri
+8a.pfb>
+Output written on NAME.pdf (120 pages, 611395 bytes).
+PDF statistics:
+ 990 PDF objects out of 1000 (max. 8388607)
+ 825 compressed objects within 9 object streams
+ 403 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

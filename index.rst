@@ -9,13 +9,9 @@ Undirbúningur í stærðfræði, Háskólinn í Reykjavík
 Hér er námsefni í stærðfræði þar sem farið er yfir helstu grunnhugtök greinarinnar.
 Einnig er til sambærileg yfirlit um eðlisfræði og efnafræði.
 
-.. button::
-  :text: Undirbúningur í eðlisfræði
-  :link: ../undirbuningur_edl/index.html
 
-.. button::
-  :text: Undirbúningur í efnafræði
-  :link: ../undirbuningur_efn/index.html
+Byggt á `Undirbúningur í stærðfræði, Háskóli Íslands <https://edbook.hi.is/undirbuningur_stae>`_ 
+gefið út undir `CC-BY-NC-SA <http://creativecommons.org/licenses/by-nc-sa/4.0/>`_-leyfi.
 
 .. toctree::
   formali

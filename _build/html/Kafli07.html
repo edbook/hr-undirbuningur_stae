@@ -8,12 +8,12 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>7. Hornaföll &mdash; Undirbúningur í stærðfræði 2018</title>
+  <title>7. Hornaföll &mdash; Undirbúningur í stærðfræði 2020</title>
   
 
   
   
-    <link rel="shortcut icon" href="_static/favicon_2.ico"/>
+    <link rel="shortcut icon" href="_static/hr_favicon.ico"/>
   
 
   
@@ -29,12 +29,6 @@
     <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   
 
-  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/katex.min.css" type="text/css" />
-  
-    <link rel="stylesheet" href="_static/button.css" type="text/css" />
-  
-    <link rel="stylesheet" href="_static/button.css" type="text/css" />
   
 
   
@@ -103,7 +97,7 @@
         <link rel="index" title="Atriðaskrá"
               href="genindex.html"/>
         <link rel="search" title="Leit" href="search.html"/>
-    <link rel="top" title="Undirbúningur í stærðfræði 2018" href="index.html"/>
+    <link rel="top" title="Undirbúningur í stærðfræði 2020" href="index.html"/>
         <link rel="next" title="8. Vigrar" href="Kafli08.html"/>
         <link rel="prev" title="6. Margliður" href="Kafli06.html"/>
 
@@ -146,7 +140,7 @@
 
         
           
-          <img src="_static/hi_horiz_raunvisindadeild.png" class="logo" />
+          <img src="_static/HR_logo_hringur.png" class="logo" />
         
         </a>
 
@@ -172,10 +166,10 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="Kafli01.html">1. Algebra</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="Kafli01.html#talnakerfi">1.1. Talnakerfi</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Kafli01.html#natturulegu-tolurnar-mathbb-n">1.1.1. Náttúrulegu tölurnar  <span class="math">\(\mathbb{N}\)</span></a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli01.html#heiltolurnar-mathbb-z">1.1.2. Heiltölurnar <span class="math">\(\mathbb{Z}\)</span></a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli01.html#raeu-tolurnar-mathbb-q">1.1.3. Ræðu tölurnar <span class="math">\(\mathbb{Q}\)</span></a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli01.html#rauntolurnar-mathbb-r">1.1.4. Rauntölurnar <span class="math">\(\mathbb{R}\)</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli01.html#natturulegu-tolurnar-mathbb-n">1.1.1. Náttúrulegu tölurnar  <span class="math notranslate nohighlight">\(\mathbb{N}\)</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli01.html#heiltolurnar-mathbb-z">1.1.2. Heiltölurnar <span class="math notranslate nohighlight">\(\mathbb{Z}\)</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli01.html#raeu-tolurnar-mathbb-q">1.1.3. Ræðu tölurnar <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli01.html#rauntolurnar-mathbb-r">1.1.4. Rauntölurnar <span class="math notranslate nohighlight">\(\mathbb{R}\)</span></a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="Kafli01.html#forgangsroun-agera">1.2. Forgangsröðun aðgerða</a></li>
@@ -563,58 +557,48 @@
 <h2><span class="section-number">7.1. </span>Bogaeiningar<a class="headerlink" href="#bogaeiningar" title="Varanlegur hlekkur á titilinn">¶</a></h2>
 <p>Í daglegu tali notum við yfirleitt mælieininguna <a href="http://www.stae.is/os/leita/angular_degree" class="tooltip" target="_blank">gráður<span>en: <i>angular degree</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> til þess að mæla horn.
 Samkvæmt skilgreiningu skiptir hún hringnum í þrjúhundruð-og-sextíu jafna hluta og einn slíkur hluti er kallaður ein gráða.
-Stærðfræðilega séð þykir talan <span class="math">\(360\)</span> ekkert merkilegri en aðrar tölur og því engin ástæða til að búa til mælieiningakerfi byggt á henni.
+Stærðfræðilega séð þykir talan <span class="math notranslate nohighlight">\(360\)</span> ekkert merkilegri en aðrar tölur og því engin ástæða til að búa til mælieiningakerfi byggt á henni.
 Í raun er til miklu náttúrulegri leið til að skilgreina nýja mælieiningu á horn.
 Hana köllum við <a href="http://www.stae.is/os/leita/radian" class="tooltip" target="_blank">bogaeiningu<span>en: <i>radian</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> en hún er skilgreind á eftirfarandi máta:</p>
 <div class="section" id="skilgreining">
 <h3><span class="section-number">7.1.1. </span>Skilgreining<a class="headerlink" href="#skilgreining" title="Varanlegur hlekkur á titilinn">¶</a></h3>
-<p>Látum <span class="math">\(\alpha\)</span> vera horn. Köllum oddpunkt hornsins <span class="math">\(O\)</span>.
-Teiknum hring með <a href="http://www.stae.is/os/leita/radius" class="tooltip" target="_blank">geisla<span>en: <i>radius</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> <span class="math">\(1\)</span> og miðju í punktinum <span class="math">\((0,0)\)</span>.
-Armar hornsins skera hringinn í tveimur punktum <span class="math">\(A\)</span> og <span class="math">\(B\)</span>.
-Stærð hornsins <span class="math">\(\alpha\)</span> er þá jafnt lengd <a href="http://www.stae.is/os/leita/arc" class="tooltip" target="_blank">bogans<span>en: <i>arc</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> á milli punktanna <span class="math">\(A\)</span> og <span class="math">\(B\)</span>.</p>
+<p>Látum <span class="math notranslate nohighlight">\(\alpha\)</span> vera horn. Köllum oddpunkt hornsins <span class="math notranslate nohighlight">\(O\)</span>.
+Teiknum hring með <a href="http://www.stae.is/os/leita/radius" class="tooltip" target="_blank">geisla<span>en: <i>radius</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> <span class="math notranslate nohighlight">\(1\)</span> og miðju í punktinum <span class="math notranslate nohighlight">\((0,0)\)</span>.
+Armar hornsins skera hringinn í tveimur punktum <span class="math notranslate nohighlight">\(A\)</span> og <span class="math notranslate nohighlight">\(B\)</span>.
+Stærð hornsins <span class="math notranslate nohighlight">\(\alpha\)</span> er þá jafnt lengd <a href="http://www.stae.is/os/leita/arc" class="tooltip" target="_blank">bogans<span>en: <i>arc</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> á milli punktanna <span class="math notranslate nohighlight">\(A\)</span> og <span class="math notranslate nohighlight">\(B\)</span>.</p>
 <img alt="_images/mynd1.png" class="align-center" src="_images/mynd1.png" />
 <div class="admonition note">
 <p class="admonition-title">Athugasemd</p>
-<p>Samkvæmt þessari skilgreiningu þá er heill hringur <span class="math">\(2 \pi\)</span> bogaeiningar því það er <a href="http://www.stae.is/os/leita/perimeter" class="tooltip" target="_blank">ummál<span>en: <i>perimeter</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> hrings með geisla <span class="math">\(1\)</span>.</p>
-<div style="text-align: center;">
-<div class="math">
+<p>Samkvæmt þessari skilgreiningu þá er heill hringur <span class="math notranslate nohighlight">\(2 \pi\)</span> bogaeiningar því það er <a href="http://www.stae.is/os/leita/circumference" class="tooltip" target="_blank">ummál<span>en: <i>circumference</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> hrings með geisla <span class="math notranslate nohighlight">\(1\)</span>.</p>
+<div class="math notranslate nohighlight">
 \[2\pi\text{ Rad} = 360°\]</div>
 </div>
-</div>
-<p>Bogaeiningar eru oft kallaðar radíanar og þær má tákna með <span class="math">\(\text{Rad}\)</span>, en það er yfirleitt ekki gert. Ef það er ekki merkt að horn sé mælt í gráðum, þá er það mælt í radíönum.</p>
+<p>Bogaeiningar eru oft kallaðar radíanar og þær má tákna með <span class="math notranslate nohighlight">\(\text{Rad}\)</span>, en það er yfirleitt ekki gert. Ef það er ekki merkt að horn sé mælt í gráðum, þá er það mælt í radíönum.</p>
 <hr class="docutils" />
 <p>Það er hægt að breyta á milli gráða og bogaeininga svona:</p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[x \quad \text{Rad} = \left(x \cdot \frac{360}{2 \pi}\right)° \qquad og \qquad  x°=\left( x \cdot \frac{2 \pi}{360}\right) \text{Rad}\]</div>
-</div>
 <div class="admonition tip">
 <p class="admonition-title">Dæmi</p>
-<p>Skrifum <span class="math">\(\frac{\pi}{6}\)</span> í gráðum.</p>
+<p>Skrifum <span class="math notranslate nohighlight">\(\frac{\pi}{6}\)</span> í gráðum.</p>
 <p><strong>Lausn</strong></p>
-<p>Til þess finnum við hversu stór hluti hornið <span class="math">\(\frac{\pi}{6}\)</span> er úr hringnum, en heill hringur er <span class="math">\(2 \pi\)</span>.
-Höfum <span class="math">\(\frac{\pi/6}{2 \pi}=\frac{1}{12}\)</span> , svo <span class="math">\(\frac{\pi}{6}\)</span> er <span class="math">\(\frac{1}{12}\)</span> úr hring.
-Nú þurfum við bara að margfalda þessa stærð með <span class="math">\(360^{\circ}\)</span> og fáum <span class="math">\(\frac{1}{12}\cdot 360^{\circ} = 30^{\circ}\)</span>.</p>
+<p>Til þess finnum við hversu stór hluti hornið <span class="math notranslate nohighlight">\(\frac{\pi}{6}\)</span> er úr hringnum, en heill hringur er <span class="math notranslate nohighlight">\(2 \pi\)</span>.
+Höfum <span class="math notranslate nohighlight">\(\frac{\pi/6}{2 \pi}=\frac{1}{12}\)</span> , svo <span class="math notranslate nohighlight">\(\frac{\pi}{6}\)</span> er <span class="math notranslate nohighlight">\(\frac{1}{12}\)</span> úr hring.
+Nú þurfum við bara að margfalda þessa stærð með <span class="math notranslate nohighlight">\(360^{\circ}\)</span> og fáum <span class="math notranslate nohighlight">\(\frac{1}{12}\cdot 360^{\circ} = 30^{\circ}\)</span>.</p>
 <p>Það er líka hægt að nota formúlurnar í skilgreiningunni hér að ofan:</p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\frac{\pi}{6} \text{Rad} = \left(\frac{\pi}{6} \cdot \frac{360}{2 \pi}\right)° = 30°\]</div>
 </div>
-</div>
 <div class="admonition tip">
 <p class="admonition-title">Dæmi</p>
-<p>Skrifum <span class="math">\(70^{\circ}\)</span> í bogaeiningum.</p>
+<p>Skrifum <span class="math notranslate nohighlight">\(70^{\circ}\)</span> í bogaeiningum.</p>
 <p><strong>Lausn</strong></p>
-<p>Finnum hversu stórt hlutfall <span class="math">\(70^{\circ}\)</span> er úr heilum hring, <span class="math">\(70/360\)</span>, og margföldum með <span class="math">\(2 \pi\)</span>. Fáum:</p>
-<div style="text-align: center;">
-<div class="math">
+<p>Finnum hversu stórt hlutfall <span class="math notranslate nohighlight">\(70^{\circ}\)</span> er úr heilum hring, <span class="math notranslate nohighlight">\(70/360\)</span>, og margföldum með <span class="math notranslate nohighlight">\(2 \pi\)</span>. Fáum:</p>
+<div class="math notranslate nohighlight">
 \[\frac{70}{360} \cdot 2 \pi=\frac{7}{18} \pi\]</div>
-</div>
-<p>Lausnin er því að <span class="math">\(70^{\circ}=\frac{7}{18}\pi\)</span>. Það er líka hægt að nota formúlurnar í skilgreiningunni hér að ofan:</p>
-<div style="text-align: center;">
-<div class="math">
+<p>Lausnin er því að <span class="math notranslate nohighlight">\(70^{\circ}=\frac{7}{18}\pi\)</span>. Það er líka hægt að nota formúlurnar í skilgreiningunni hér að ofan:</p>
+<div class="math notranslate nohighlight">
 \[70°=\left( 70 \cdot \frac{2 \pi}{360}\right) \text{Rad} = \frac{7\pi}{18}\]</div>
-</div>
 </div>
 </div>
 </div>
@@ -622,38 +606,35 @@ Nú þurfum við bara að margfalda þessa stærð með <span class="math">\(360
 <h2><span class="section-number">7.2. </span>Kósínus og sínus<a class="headerlink" href="#kosinus-og-sinus" title="Varanlegur hlekkur á titilinn">¶</a></h2>
 <div class="section" id="eingingahringurinn">
 <h3><span class="section-number">7.2.1. </span>Eingingahringurinn<a class="headerlink" href="#eingingahringurinn" title="Varanlegur hlekkur á titilinn">¶</a></h3>
-<p>Hringurinn með miðju í punktinum <span class="math">\((0,0)\)</span> í hnitakerfinu og radíus einn er kallaður <a href="http://www.stae.is/os/leita/unit_circle" class="tooltip" target="_blank">einingarhringurinn<span>en: <i>unit circle</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>. Í þessum kafla munum við nota einingarhringinn og bogaeiningar til að skilgreina <a href="http://www.stae.is/os/leita/circular_function" class="tooltip" target="_blank">hornaföll<span>en: <i>circular function</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>.</p>
+<p>Hringurinn með miðju í punktinum <span class="math notranslate nohighlight">\((0,0)\)</span> í hnitakerfinu og radíus einn er kallaður <a href="http://www.stae.is/os/leita/unit_circle" class="tooltip" target="_blank">einingarhringurinn<span>en: <i>unit circle</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>. Í þessum kafla munum við nota einingarhringinn og bogaeiningar til að skilgreina <a href="http://www.stae.is/os/leita/trigonometric_function" class="tooltip" target="_blank">hornaföll<span>en: <i>trigonometric function</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>.</p>
 </div>
 <div class="section" id="id1">
 <h3><span class="section-number">7.2.2. </span>Kósínus og sínus<a class="headerlink" href="#id1" title="Varanlegur hlekkur á titilinn">¶</a></h3>
-<p>Nú er markmiðið að skýra stærðirnar <span class="math">\(\cos(\alpha)\)</span> og <span class="math">\(\sin(\alpha)\)</span>.</p>
+<p>Nú er markmiðið að skýra stærðirnar <span class="math notranslate nohighlight">\(\cos(\alpha)\)</span> og <span class="math notranslate nohighlight">\(\sin(\alpha)\)</span>.</p>
 <p>Teiknum einingarhring í <a href="http://www.stae.is/os/leita/coordinate_system" class="tooltip" target="_blank">hnitakerfið<span>en: <i>coordinate system</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>.
-Setjum blýantinn okkar í punktinn <span class="math">\((1,0)\)</span> og færum hann rangsælis eftir einingarhringnum þar til blýanturinn er búinn að færast um vegalengdina <span class="math">\(\alpha\)</span>. (Ef <span class="math">\(\alpha\)</span> er neikvæð tala förum við réttsælis um vegalengdina <span class="math">\(\alpha\)</span>). Hér er í lagi þó að <span class="math">\(\alpha\)</span> sé stór tala og við förum marga hringi á einingarhringinn.</p>
-<img alt="_images/alpha.svg" class="align-center" src="_images/alpha.svg" /><p>Munum að <span class="math">\(\alpha\)</span> er horn í bogalengdum og er jafnt lengd bogans frá upphafspunktinum.</p>
-<p>Þegar blýanturinn er búinn að ferðast um vegalengdina <span class="math">\(\alpha\)</span> þá stoppum við og mörkum punktinn <span class="math">\(P\)</span> inn á hnitakerfið þar sem stoppað var.
-Kósínus af horninu <span class="math">\(\alpha\)</span> er nú skilgreindur sem <span class="math">\(x\)</span>-hnit punktsins <span class="math">\(P\)</span>, og sínus af horninu <span class="math">\(\alpha\)</span> er skilgreindur sem <span class="math">\(y\)</span>-hnit punktsins <span class="math">\(P\)</span>. Við táknum þessi föll með <span class="math">\(\cos(\alpha)\)</span> og <span class="math">\(\sin(\alpha)\)</span>.</p>
+Setjum blýantinn okkar í punktinn <span class="math notranslate nohighlight">\((1,0)\)</span> og færum hann rangsælis eftir einingarhringnum þar til blýanturinn er búinn að færast um vegalengdina <span class="math notranslate nohighlight">\(\alpha\)</span>. (Ef <span class="math notranslate nohighlight">\(\alpha\)</span> er neikvæð tala förum við réttsælis um vegalengdina <span class="math notranslate nohighlight">\(\alpha\)</span>). Hér er í lagi þó að <span class="math notranslate nohighlight">\(\alpha\)</span> sé stór tala og við förum marga hringi á einingarhringinn.</p>
+<img alt="_images/alpha.svg" class="align-center" src="_images/alpha.svg" /><p>Munum að <span class="math notranslate nohighlight">\(\alpha\)</span> er horn í bogalengdum og er jafnt lengd bogans frá upphafspunktinum.</p>
+<p>Þegar blýanturinn er búinn að ferðast um vegalengdina <span class="math notranslate nohighlight">\(\alpha\)</span> þá stoppum við og mörkum punktinn <span class="math notranslate nohighlight">\(P\)</span> inn á hnitakerfið þar sem stoppað var.
+Kósínus af horninu <span class="math notranslate nohighlight">\(\alpha\)</span> er nú skilgreindur sem <span class="math notranslate nohighlight">\(x\)</span>-hnit punktsins <span class="math notranslate nohighlight">\(P\)</span>, og sínus af horninu <span class="math notranslate nohighlight">\(\alpha\)</span> er skilgreindur sem <span class="math notranslate nohighlight">\(y\)</span>-hnit punktsins <span class="math notranslate nohighlight">\(P\)</span>. Við táknum þessi föll með <span class="math notranslate nohighlight">\(\cos(\alpha)\)</span> og <span class="math notranslate nohighlight">\(\sin(\alpha)\)</span>.</p>
 <a class="reference internal image-reference" href="_images/mynd2.svg"><img alt="_images/mynd2.svg" class="align-center" src="_images/mynd2.svg" width="70%" /></a>
 <div class="admonition note">
 <p class="admonition-title">Athugasemd</p>
-<p>Bæði kósínus og sínus eru <span class="math">\(2 \pi\)</span>-<a href="http://www.stae.is/os/leita/periodic" class="tooltip" target="_blank">lotubundin<span>en: <i>periodic</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> föll. Ef við förum heilan hring, sem er <span class="math">\(2 \pi\)</span>, þá endum við í sama punkti og fáum því sama gildið.</p>
+<p>Bæði kósínus og sínus eru <span class="math notranslate nohighlight">\(2 \pi\)</span>-<a href="http://www.stae.is/os/leita/periodic" class="tooltip" target="_blank">lotubundin<span>en: <i>periodic</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> föll. Ef við förum heilan hring, sem er <span class="math notranslate nohighlight">\(2 \pi\)</span>, þá endum við í sama punkti og fáum því sama gildið.</p>
 </div>
-<p>Hornafallið tangens, <span class="math">\(\tan\)</span>, er skilgreint sem hlutfallið á milli <span class="math">\(\sin\)</span> og <span class="math">\(\cos\)</span>.</p>
-<div style="text-align: center;">
-<div class="math">
+<p>Hornafallið tangens, <span class="math notranslate nohighlight">\(\tan\)</span>, er skilgreint sem hlutfallið á milli <span class="math notranslate nohighlight">\(\sin\)</span> og <span class="math notranslate nohighlight">\(\cos\)</span>.</p>
+<div class="math notranslate nohighlight">
 \[\tan(\alpha) = \frac{\sin(\alpha)}{\cos(\alpha)}\]</div>
-</div>
-<p>Þar sem <span class="math">\(\cos(\alpha) \neq 0\)</span></p>
-<p>Hægt er að nota allar hliðar þríhyrningsins sem myndast til að finna gildin á <span class="math">\(\cos(\alpha), \sin(\alpha)\)</span> og <span class="math">\(\tan(\alpha)\)</span>.</p>
+<p>Þar sem <span class="math notranslate nohighlight">\(\cos(\alpha) \neq 0\)</span></p>
+<p>Hægt er að nota allar hliðar þríhyrningsins sem myndast til að finna gildin á <span class="math notranslate nohighlight">\(\cos(\alpha), \sin(\alpha)\)</span> og <span class="math notranslate nohighlight">\(\tan(\alpha)\)</span>.</p>
 <a class="reference internal image-reference" href="_images/sohcahtoa.svg"><img alt="_images/sohcahtoa.svg" class="align-center" src="_images/sohcahtoa.svg" width="50%" /></a>
-<p>Hér er <span class="math">\(c\)</span> kölluð <a href="http://www.stae.is/os/leita/hypotenuse" class="tooltip" target="_blank">langhliðin<span>en: <i>hypotenuse</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>, <span class="math">\(a\)</span> kölluð <a href="http://www.stae.is/os/leita/adjacent_side" class="tooltip" target="_blank">aðlæg skammhlið<span>en: <i>adjacent side</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> og <span class="math">\(b\)</span> kölluð <a href="http://www.stae.is/os/leita/opposite_side" class="tooltip" target="_blank">mótlæg skammhlið<span>en: <i>opposite side</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> miðað við hornið <span class="math">\(\alpha\)</span>.</p>
+<p>Hér er <span class="math notranslate nohighlight">\(c\)</span> kölluð <a href="http://www.stae.is/os/leita/hypotenuse" class="tooltip" target="_blank">langhliðin<span>en: <i>hypotenuse</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>, <span class="math notranslate nohighlight">\(a\)</span> kölluð <a href="http://www.stae.is/os/leita/adjacent_side" class="tooltip" target="_blank">aðlæg skammhlið<span>en: <i>adjacent side</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> og <span class="math notranslate nohighlight">\(b\)</span> kölluð <a href="http://www.stae.is/os/leita/opposite_side" class="tooltip" target="_blank">mótlæg skammhlið<span>en: <i>opposite side</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> miðað við hornið <span class="math notranslate nohighlight">\(\alpha\)</span>.</p>
 </div>
 <div class="section" id="amma-illa">
 <h3><span class="section-number">7.2.3. </span>Amma illa<a class="headerlink" href="#amma-illa" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p>Sumum þykir þægilegt að nota eftirfarandi töflu til þess að muna hvaða hlutföll hliðanna gefur hvaða hornafall.
-Hér stendur <span class="math">\(\text{a}\)</span> fyrir <em>aðlæga</em> skammhlið, <span class="math">\(\text{m}\)</span> fyrir <em>mótlæga</em> skammhlið og <span class="math">\(\text{l}\)</span> fyrir <em>langhlið</em>.</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}\begin{array}{| c | c | c | c | c |}
+Hér stendur <span class="math notranslate nohighlight">\(\text{a}\)</span> fyrir <em>aðlæga</em> skammhlið, <span class="math notranslate nohighlight">\(\text{m}\)</span> fyrir <em>mótlæga</em> skammhlið og <span class="math notranslate nohighlight">\(\text{l}\)</span> fyrir <em>langhlið</em>.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{| c | c | c | c | c |}
         \hline
         &amp; \cos(\alpha) &amp; \sin(\alpha) &amp; \tan(\alpha) &amp; \\
         \hline
@@ -661,33 +642,31 @@ Hér stendur <span class="math">\(\text{a}\)</span> fyrir <em>aðlæga</em> skam
         \hline
         \text{(i)} &amp;    \text{l} &amp; \text{l} &amp; \text{a} &amp;  \\
         \hline
-\end{array}\end{aligned}\]</div>
-</div>
-<p><span class="math">\(\cos\)</span> af horni í þríhyrningi er aðlæg deilt með langhlið (<span class="math">\(\text{a}/\text{l}\)</span>).</p>
-<p><span class="math">\(\sin\)</span> af horni er mótlæg deilt með langhlið (<span class="math">\(\text{m}/\text{l}\)</span>).</p>
-<p><span class="math">\(\tan\)</span> er mótlæg deilt með aðlægri skammhlið (<span class="math">\(\text{m}/\text{a}\)</span>).</p>
+\end{array}\end{split}\]</div>
+<p><span class="math notranslate nohighlight">\(\cos\)</span> af horni í þríhyrningi er aðlæg deilt með langhlið (<span class="math notranslate nohighlight">\(\text{a}/\text{l}\)</span>).</p>
+<p><span class="math notranslate nohighlight">\(\sin\)</span> af horni er mótlæg deilt með langhlið (<span class="math notranslate nohighlight">\(\text{m}/\text{l}\)</span>).</p>
+<p><span class="math notranslate nohighlight">\(\tan\)</span> er mótlæg deilt með aðlægri skammhlið (<span class="math notranslate nohighlight">\(\text{m}/\text{a}\)</span>).</p>
 </div>
 </div>
 <div class="section" id="ekkt-gildi-a-hornafollum">
 <h2><span class="section-number">7.3. </span>Þekkt gildi á hornaföllum<a class="headerlink" href="#ekkt-gildi-a-hornafollum" title="Varanlegur hlekkur á titilinn">¶</a></h2>
-<p>Skoðum nú nokkur gildi á <span class="math">\(\alpha\)</span> í samhengi við útskýringuna á hornaföllunum hér að ofan.</p>
-<p>Munið að við látum blýant byrja í punktinum <span class="math">\((1,0)\)</span> og færum okkur eftir einingarhringnum eins langt og <span class="math">\(\alpha\)</span> segir til um, og endum í punkti <span class="math">\(P\)</span>.</p>
+<p>Skoðum nú nokkur gildi á <span class="math notranslate nohighlight">\(\alpha\)</span> í samhengi við útskýringuna á hornaföllunum hér að ofan.</p>
+<p>Munið að við látum blýant byrja í punktinum <span class="math notranslate nohighlight">\((1,0)\)</span> og færum okkur eftir einingarhringnum eins langt og <span class="math notranslate nohighlight">\(\alpha\)</span> segir til um, og endum í punkti <span class="math notranslate nohighlight">\(P\)</span>.</p>
 <ol class="arabic simple">
-<li><p>Ef <span class="math">\(\alpha=0\)</span> þá færum við okkur ekki neitt. Við endum í sama punkti og við byrjum í og þess vegna verður <span class="math">\(P=(1,0)\)</span>. Þess vegna er <span class="math">\(\cos(0)=1\)</span> og <span class="math">\(\sin(0)=0\)</span>.</p></li>
-<li><p>Ef <span class="math">\(\alpha=\pi/2\)</span> þá færum við okkur rangsælis um fjórðung af hringnum (ummál hringsins er <span class="math">\(2\pi\)</span>). Við endum semsagt í topppunkti hringsins sem hefur hnit <span class="math">\(P=(0,1)\)</span> svo <span class="math">\(\cos(\pi/2)=0\)</span> og <span class="math">\(\sin(\pi/2)=1\)</span>.</p></li>
-<li><p>Ef <span class="math">\(\alpha=\pi\)</span> þá færum við okkur rangsælis um hálfan hring. Þá erum við stödd í punktinum <span class="math">\(P=(-1,0)\)</span> svo að <span class="math">\(\cos(\pi)=-1\)</span> og <span class="math">\(\sin(\pi)=0\)</span>.</p></li>
+<li><p>Ef <span class="math notranslate nohighlight">\(\alpha=0\)</span> þá færum við okkur ekki neitt. Við endum í sama punkti og við byrjum í og þess vegna verður <span class="math notranslate nohighlight">\(P=(1,0)\)</span>. Þess vegna er <span class="math notranslate nohighlight">\(\cos(0)=1\)</span> og <span class="math notranslate nohighlight">\(\sin(0)=0\)</span>.</p></li>
+<li><p>Ef <span class="math notranslate nohighlight">\(\alpha=\pi/2\)</span> þá færum við okkur rangsælis um fjórðung af hringnum (ummál hringsins er <span class="math notranslate nohighlight">\(2\pi\)</span>). Við endum semsagt í topppunkti hringsins sem hefur hnit <span class="math notranslate nohighlight">\(P=(0,1)\)</span> svo <span class="math notranslate nohighlight">\(\cos(\pi/2)=0\)</span> og <span class="math notranslate nohighlight">\(\sin(\pi/2)=1\)</span>.</p></li>
+<li><p>Ef <span class="math notranslate nohighlight">\(\alpha=\pi\)</span> þá færum við okkur rangsælis um hálfan hring. Þá erum við stödd í punktinum <span class="math notranslate nohighlight">\(P=(-1,0)\)</span> svo að <span class="math notranslate nohighlight">\(\cos(\pi)=-1\)</span> og <span class="math notranslate nohighlight">\(\sin(\pi)=0\)</span>.</p></li>
 </ol>
 <p>Vel þekkt gildi á hornaföllunum má lesa úr myndinni að neðan.
-Stærðir hornanna eru merktar utan á hringinn og <span class="math">\(x\)</span> - og <span class="math">\(y\)</span> - hnit þeirra eru merkt á ásana.
+Stærðir hornanna eru merktar utan á hringinn og <span class="math notranslate nohighlight">\(x\)</span> - og <span class="math notranslate nohighlight">\(y\)</span> - hnit þeirra eru merkt á ásana.
 Mikilvægt er að þekkja einingarhringinn og geta notað hann.
-Við lesum gildin á kósínus á <span class="math">\(x\)</span> - ásnum og  gildin á sínus á <span class="math">\(y\)</span> - ásnum.</p>
-<p>Þannig sést til dæmis á myndinni að <span class="math">\(\cos(5\pi/6)=-\frac{\sqrt{3}}{2}\)</span> (<span class="math">\(x\)</span>-ásinn) og <span class="math">\(\sin(5\pi/6)=\frac12\)</span> (<span class="math">\(y\)</span>-ásinn). Einnig er il dæmis <span class="math">\(\cos(7\pi/4)=\frac{\sqrt{2}}{2}\)</span> og <span class="math">\(\sin(7\pi/4)=-\frac{\sqrt{2}}{2}\)</span> og svona gætum við haldið áfram.</p>
+Við lesum gildin á kósínus á <span class="math notranslate nohighlight">\(x\)</span> - ásnum og  gildin á sínus á <span class="math notranslate nohighlight">\(y\)</span> - ásnum.</p>
+<p>Þannig sést til dæmis á myndinni að <span class="math notranslate nohighlight">\(\cos(5\pi/6)=-\frac{\sqrt{3}}{2}\)</span> (<span class="math notranslate nohighlight">\(x\)</span>-ásinn) og <span class="math notranslate nohighlight">\(\sin(5\pi/6)=\frac12\)</span> (<span class="math notranslate nohighlight">\(y\)</span>-ásinn). Einnig er il dæmis <span class="math notranslate nohighlight">\(\cos(7\pi/4)=\frac{\sqrt{2}}{2}\)</span> og <span class="math notranslate nohighlight">\(\sin(7\pi/4)=-\frac{\sqrt{2}}{2}\)</span> og svona gætum við haldið áfram.</p>
 <img alt="_images/einingarhringur.svg" class="align-center" src="_images/einingarhringur.svg" /><div class="admonition warning">
 <p class="admonition-title">Aðvörun</p>
 <p>Það getur borgað sig að hafa þessi gildi á hreinu!</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}\begin{array}{| c | c | c | c |}
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{| c | c | c | c |}
         \hline
         &amp; \alpha = 30°  = \frac{\pi}{6} &amp; \alpha = 60° = \frac{\pi}{3} &amp; \alpha = 45° = \frac{\pi}{4} \\
         \hline
@@ -697,61 +676,52 @@ Við lesum gildin á kósínus á <span class="math">\(x\)</span> - ásnum og  g
         \hline
         \tan(\alpha) &amp; \frac{\sqrt{3}}{3} &amp; \sqrt{3} &amp; 1 \\
         \hline
-\end{array}\end{aligned}\]</div>
+\end{array}\end{split}\]</div>
 </div>
-</div>
-<p>Til þess að læra gildin getur reynst vel að skoða þríhyrningana sem myndast út frá einingarhringnum þegar <span class="math">\(\alpha\)</span> tekur gildin <span class="math">\(\frac{\pi}{6}, \frac{\pi}{3} \text{ og } \frac{\pi}{4}\)</span>.</p>
-<p>Hér er rétthyrndi þríhyrningurinn sem myndast þegar við erum í <span class="math">\(30°\)</span> eða <span class="math">\(\frac{\pi}{6}\)</span> stefnu:</p>
+<p>Til þess að læra gildin getur reynst vel að skoða þríhyrningana sem myndast út frá einingarhringnum þegar <span class="math notranslate nohighlight">\(\alpha\)</span> tekur gildin <span class="math notranslate nohighlight">\(\frac{\pi}{6}, \frac{\pi}{3} \text{ og } \frac{\pi}{4}\)</span>.</p>
+<p>Hér er rétthyrndi þríhyrningurinn sem myndast þegar við erum í <span class="math notranslate nohighlight">\(30°\)</span> eða <span class="math notranslate nohighlight">\(\frac{\pi}{6}\)</span> stefnu:</p>
 <a class="reference internal image-reference" href="_images/triangle1.svg"><img alt="_images/triangle1.svg" class="align-center" src="_images/triangle1.svg" width="70%" /></a>
-<p>Hér er rétthyrndi þríhyrningurinn sem myndast þegar við erum í <span class="math">\(60°\)</span> eða <span class="math">\(\frac{\pi}{3}\)</span> stefnu:</p>
+<p>Hér er rétthyrndi þríhyrningurinn sem myndast þegar við erum í <span class="math notranslate nohighlight">\(60°\)</span> eða <span class="math notranslate nohighlight">\(\frac{\pi}{3}\)</span> stefnu:</p>
 <a class="reference internal image-reference" href="_images/triangle2.svg"><img alt="_images/triangle2.svg" class="align-center" src="_images/triangle2.svg" width="70%" /></a>
-<p>Hér er rétthyrndi þríhyrningurinn sem myndast þegar við erum í <span class="math">\(45°\)</span> eða <span class="math">\(\frac{\pi}{4}\)</span> stefnu:</p>
+<p>Hér er rétthyrndi þríhyrningurinn sem myndast þegar við erum í <span class="math notranslate nohighlight">\(45°\)</span> eða <span class="math notranslate nohighlight">\(\frac{\pi}{4}\)</span> stefnu:</p>
 <a class="reference internal image-reference" href="_images/triangle3.svg"><img alt="_images/triangle3.svg" class="align-center" src="_images/triangle3.svg" width="70%" /></a>
 </div>
 <div class="section" id="tangens-og-kotangens">
 <h2><span class="section-number">7.4. </span>Tangens og kótangens<a class="headerlink" href="#tangens-og-kotangens" title="Varanlegur hlekkur á titilinn">¶</a></h2>
 <p>Við skilgreinum föllin tangens og kótangens þannig:</p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\tan(\alpha)=\frac{\sin(\alpha)}{\cos(\alpha)}, \qquad (\cos(\alpha)\neq 0 )\]</div>
-</div>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cot(\alpha)=\frac{\cos(\alpha)}{\sin(\alpha)}, \qquad (\sin(\alpha)\neq 0)\]</div>
-</div>
 </div>
 <div class="section" id="myndir-af-hornafollum">
 <h2><span class="section-number">7.5. </span>Myndir af hornaföllum<a class="headerlink" href="#myndir-af-hornafollum" title="Varanlegur hlekkur á titilinn">¶</a></h2>
-<p>Hér eru myndir af gröfum hornafallanna, þar sem hornið er eftir <span class="math">\(x\)</span> - ásnum.
-Takið eftir að öll föllin eru lotubundin með lotu <span class="math">\(2\pi\)</span>.</p>
+<p>Hér eru myndir af gröfum hornafallanna, þar sem hornið er eftir <span class="math notranslate nohighlight">\(x\)</span> - ásnum.
+Takið eftir að öll föllin eru lotubundin með lotu <span class="math notranslate nohighlight">\(2\pi\)</span>.</p>
 <a class="reference internal image-reference" href="_images/mynd3.svg"><img alt="_images/mynd3.svg" class="align-center" src="_images/mynd3.svg" width="120%" /></a>
 <a class="reference internal image-reference" href="_images/mynd4.svg"><img alt="_images/mynd4.svg" class="align-center" src="_images/mynd4.svg" width="120%" /></a>
 <hr class="docutils" />
-<p>Takið eftir að kósínusinn lítur næstum alveg eins út og sínusinn, eini munurinn á gröfunum er að búið er að hliðra öðru um <span class="math">\(\frac{\pi}{2}\)</span> miðað við hitt.</p>
-<div style="text-align: center;">
-<div class="math">
+<p>Takið eftir að kósínusinn lítur næstum alveg eins út og sínusinn, eini munurinn á gröfunum er að búið er að hliðra öðru um <span class="math notranslate nohighlight">\(\frac{\pi}{2}\)</span> miðað við hitt.</p>
+<div class="math notranslate nohighlight">
 \[\cos(\alpha) = \sin\left(\frac{\pi}{2} - \alpha\right)\]</div>
-</div>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin(\alpha) = \cos\left(\frac{\pi}{2} - \alpha\right)\]</div>
-</div>
 <p>Sínusinn og kósínusinn eru takmörkuð föll, takmörkuð af einum að ofan og mínus einum að neðan.
 Það þýðir að þau taki <em>aldrei</em> gildi sem eru stærri en 1 eða minni en -1.</p>
 <div class="admonition note">
 <p class="admonition-title">Athugasemd</p>
 <dl class="simple">
-<dt>Ein af mikilvægum eiginleikum <span class="math">\(\cos\)</span> og <span class="math">\(\sin\)</span> er að</dt><dd><ul class="simple">
+<dt>Ein af mikilvægum eiginleikum <span class="math notranslate nohighlight">\(\cos\)</span> og <span class="math notranslate nohighlight">\(\sin\)</span> er að</dt><dd><ul class="simple">
 <li><dl class="simple">
-<dt><span class="math">\(\cos\)</span> er <strong>jafnstætt</strong> fall</dt><dd><ul>
-<li><p><span class="math">\(\cos(-\alpha) = \cos(\alpha)\)</span></p></li>
+<dt><span class="math notranslate nohighlight">\(\cos\)</span> er <strong>jafnstætt</strong> fall</dt><dd><ul>
+<li><p><span class="math notranslate nohighlight">\(\cos(-\alpha) = \cos(\alpha)\)</span></p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt><span class="math">\(\sin\)</span> er <strong>oddstætt</strong> fall</dt><dd><ul>
-<li><p><span class="math">\(\sin(-\alpha) = -\sin(\alpha)\)</span></p></li>
+<dt><span class="math notranslate nohighlight">\(\sin\)</span> er <strong>oddstætt</strong> fall</dt><dd><ul>
+<li><p><span class="math notranslate nohighlight">\(\sin(-\alpha) = -\sin(\alpha)\)</span></p></li>
 </ul>
 </dd>
 </dl>
@@ -764,51 +734,46 @@ Takið eftir að öll föllin eru lotubundin með lotu <span class="math">\(2\pi
 <a class="reference internal image-reference" href="_images/mynd5.svg"><img alt="_images/mynd5.svg" class="align-center" src="_images/mynd5.svg" width="120%" /></a>
 <hr class="docutils" />
 <p>Tangensinn er ekki takmarkaður heldur stefnir á plús eða mínus óendanlegt á sumum stöðum.
-Þá hefur <span class="math">\(\tan(x)\)</span> <a href="http://www.stae.is/os/leita/asymptote" class="tooltip" target="_blank">lóðfellur<span>en: <i>asymptote</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> þar sem <span class="math">\(\cos(x)=0\)</span>, því þá er <span class="math">\(\tan(x) = \frac{\sin(x)}{\cos(x)}\)</span> ekki skilgreint.</p>
+Þá hefur <span class="math notranslate nohighlight">\(\tan(x)\)</span> <a href="http://www.stae.is/os/leita/asymptote" class="tooltip" target="_blank">lóðfellur<span>en: <i>asymptote</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> þar sem <span class="math notranslate nohighlight">\(\cos(x)=0\)</span>, því þá er <span class="math notranslate nohighlight">\(\tan(x) = \frac{\sin(x)}{\cos(x)}\)</span> ekki skilgreint.</p>
 <hr class="docutils" />
 <a class="reference internal image-reference" href="_images/mynd6.svg"><img alt="_images/mynd6.svg" class="align-center" src="_images/mynd6.svg" width="120%" /></a>
 <hr class="docutils" />
-<p>Á sama hátt er kótangensinn eru ekki takmarkaður heldur stefnir á plús eða mínus óendanlegt á sumum stöðum. Einnig hefur <span class="math">\(\cot(x)\)</span> <a href="http://www.stae.is/os/leita/asymptote" class="tooltip" target="_blank">lóðfellur<span>en: <i>asymptote</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> þar sem <span class="math">\(\sin(x)=0\)</span>, því þá er <span class="math">\(\cot(x) = \frac{\cos(x)}{\sin(x)}\)</span> ekki skilgreint.</p>
+<p>Á sama hátt er kótangensinn eru ekki takmarkaður heldur stefnir á plús eða mínus óendanlegt á sumum stöðum. Einnig hefur <span class="math notranslate nohighlight">\(\cot(x)\)</span> <a href="http://www.stae.is/os/leita/asymptote" class="tooltip" target="_blank">lóðfellur<span>en: <i>asymptote</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> þar sem <span class="math notranslate nohighlight">\(\sin(x)=0\)</span>, því þá er <span class="math notranslate nohighlight">\(\cot(x) = \frac{\cos(x)}{\sin(x)}\)</span> ekki skilgreint.</p>
 </div>
 <div class="section" id="hornafallareglur">
 <span id="s-hornafoll"></span><h2><span class="section-number">7.6. </span>Hornafallareglur<a class="headerlink" href="#hornafallareglur" title="Varanlegur hlekkur á titilinn">¶</a></h2>
 <p>Hornaföllin hafa marga nytsamlega eiginleika. Rökstyðjum hér nokkrar hornafallareglur:</p>
 <p><strong>1.</strong> Rökstyðjum að</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 \cos(-\alpha)&amp;=\cos(\alpha) \\
 &amp;\text{og} \\
 \sin(-\alpha)&amp;=-\sin(\alpha)
-\end{aligned}\]</div>
-</div>
-<p>Byrjum í punktinum <span class="math">\((1,0)\)</span> og færum okkur <em>rangsælis</em> eftir einingarhringnum um vegalengdina <span class="math">\(\alpha\)</span> . Mörkum þar punktinn <span class="math">\(P_1\)</span>.
-Færum okkur svo úr <span class="math">\((1,0)\)</span> <em>réttsælis</em> um <span class="math">\(\alpha\)</span> og mörkum þar inn <span class="math">\(P_2\)</span>.</p>
+\end{aligned}\end{split}\]</div>
+<p>Byrjum í punktinum <span class="math notranslate nohighlight">\((1,0)\)</span> og færum okkur <em>rangsælis</em> eftir einingarhringnum um vegalengdina <span class="math notranslate nohighlight">\(\alpha\)</span> . Mörkum þar punktinn <span class="math notranslate nohighlight">\(P_1\)</span>.
+Færum okkur svo úr <span class="math notranslate nohighlight">\((1,0)\)</span> <em>réttsælis</em> um <span class="math notranslate nohighlight">\(\alpha\)</span> og mörkum þar inn <span class="math notranslate nohighlight">\(P_2\)</span>.</p>
 <a class="reference internal image-reference" href="_images/mynd7.svg"><img alt="_images/mynd7.svg" class="align-center" src="_images/mynd7.svg" width="50%" /></a>
-<p>Auðvelt er að sjá að punktarnir hafa sömu <span class="math">\(x\)</span>-hnit þannig að <span class="math">\(\cos(-\alpha)=\cos(\alpha)\)</span> .
-Hins vegar hafa <span class="math">\(y\)</span>-hnitin öfug formerki miðað við hvort annað, svo <span class="math">\(\sin(-\alpha)=-\sin(\alpha)\)</span>.</p>
+<p>Auðvelt er að sjá að punktarnir hafa sömu <span class="math notranslate nohighlight">\(x\)</span>-hnit þannig að <span class="math notranslate nohighlight">\(\cos(-\alpha)=\cos(\alpha)\)</span> .
+Hins vegar hafa <span class="math notranslate nohighlight">\(y\)</span>-hnitin öfug formerki miðað við hvort annað, svo <span class="math notranslate nohighlight">\(\sin(-\alpha)=-\sin(\alpha)\)</span>.</p>
 <hr class="docutils" />
 <p><strong>2.</strong> Rökstyðjum að</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 \cos(\pi-\alpha)&amp;=-\cos(\alpha) \\
 &amp;\text{og} \\
 \sin(\pi-\alpha)&amp;=\sin(\alpha)
-\end{aligned}\]</div>
-</div>
+\end{aligned}\end{split}\]</div>
 <p>Við mörkum aftur tvo punkta inn á hnitakerfið.</p>
-<p><span class="math">\(P_1\)</span> mörkum við með því að færa okkur um hornið <span class="math">\(\pi-\alpha\)</span>, en það er gert með því að færa sig fyrst rangsælis um <span class="math">\(\pi\)</span> en svo aftur til baka réttsælis um hornið <span class="math">\(\alpha\)</span>.
-<span class="math">\(P_2\)</span> mörkum við inn á hnitakerfið með því að færa okkur um hornið <span class="math">\(\alpha\)</span> rangsælis.</p>
+<p><span class="math notranslate nohighlight">\(P_1\)</span> mörkum við með því að færa okkur um hornið <span class="math notranslate nohighlight">\(\pi-\alpha\)</span>, en það er gert með því að færa sig fyrst rangsælis um <span class="math notranslate nohighlight">\(\pi\)</span> en svo aftur til baka réttsælis um hornið <span class="math notranslate nohighlight">\(\alpha\)</span>.
+<span class="math notranslate nohighlight">\(P_2\)</span> mörkum við inn á hnitakerfið með því að færa okkur um hornið <span class="math notranslate nohighlight">\(\alpha\)</span> rangsælis.</p>
 <a class="reference internal image-reference" href="_images/mynd8.svg"><img alt="_images/mynd8.svg" class="align-center" src="_images/mynd8.svg" width="50%" /></a>
-<p>Þá er auðvelt að sjá að <span class="math">\(P_1\)</span> og <span class="math">\(P_2\)</span> hafa sömu <span class="math">\(y\)</span>-hnit þannig að <span class="math">\(\sin(\pi-\alpha)=\sin(\alpha)\)</span> .
-Þá hafa <span class="math">\(x\)</span>-hnit punktanna gagnstæð formerki, þannig að <span class="math">\(\cos(\pi-\alpha)=-\cos(\alpha)\)</span>. En það er einmitt það sem við erum að reyna að rökstyðja.</p>
+<p>Þá er auðvelt að sjá að <span class="math notranslate nohighlight">\(P_1\)</span> og <span class="math notranslate nohighlight">\(P_2\)</span> hafa sömu <span class="math notranslate nohighlight">\(y\)</span>-hnit þannig að <span class="math notranslate nohighlight">\(\sin(\pi-\alpha)=\sin(\alpha)\)</span> .
+Þá hafa <span class="math notranslate nohighlight">\(x\)</span>-hnit punktanna gagnstæð formerki, þannig að <span class="math notranslate nohighlight">\(\cos(\pi-\alpha)=-\cos(\alpha)\)</span>. En það er einmitt það sem við erum að reyna að rökstyðja.</p>
 <hr class="docutils" />
 <p>Hægt er að rökstyðja fleiri reglur á svipaðan hátt, en það getur verið auðveldara að sjá þær myndrænt fyrir sér en að reyna að muna þær allar.</p>
 <p>Setjum fram nokkrar slíkar reglur.</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 \cos(-\theta)&amp;=\cos \theta\\
 \sin(-\theta)&amp;=-\sin\theta\\
 &amp; \\
@@ -820,199 +785,164 @@ Hins vegar hafa <span class="math">\(y\)</span>-hnitin öfug formerki miðað vi
 &amp; \\
 \cos\left(\frac{\pi}{2}-\theta\right)&amp;=\sin\theta\\
 \sin\left(\frac{\pi}{2}-\theta\right)&amp;=\cos\theta
-\end{aligned}\]</div>
-</div>
-<p>Almennt eru gildi <span class="math">\(\cos(\alpha), \sin(\alpha)\)</span> og <span class="math">\(\tan(\alpha)\)</span> jákvæð í fyrsta fjórðungi, svo eru gildi <span class="math">\(\sin(\alpha)\)</span> jákvæð í öðrum fjórðungi, <span class="math">\(\tan(\alpha)\)</span> í þriðja, og <span class="math">\(\cos(\alpha)\)</span> í fjórða. Sjáum á mynd hvaða hornaföll eru jákvæð hvar.</p>
+\end{aligned}\end{split}\]</div>
+<p>Almennt eru gildi <span class="math notranslate nohighlight">\(\cos(\alpha), \sin(\alpha)\)</span> og <span class="math notranslate nohighlight">\(\tan(\alpha)\)</span> jákvæð í fyrsta fjórðungi, svo eru gildi <span class="math notranslate nohighlight">\(\sin(\alpha)\)</span> jákvæð í öðrum fjórðungi, <span class="math notranslate nohighlight">\(\tan(\alpha)\)</span> í þriðja, og <span class="math notranslate nohighlight">\(\cos(\alpha)\)</span> í fjórða. Sjáum á mynd hvaða hornaföll eru jákvæð hvar.</p>
 <a class="reference internal image-reference" href="_images/astc.svg"><img alt="_images/astc.svg" class="align-center" src="_images/astc.svg" width="50%" /></a>
 </div>
 <div class="section" id="tvofold-horn">
 <h2><span class="section-number">7.7. </span>Tvöföld horn<a class="headerlink" href="#tvofold-horn" title="Varanlegur hlekkur á titilinn">¶</a></h2>
-<p>Lítum á horn af gerðinni <span class="math">\(2x\)</span> þar sem <span class="math">\(x\)</span> er einhver tala. Við höfum eftirfarandi reglur um tvöföld horn:</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<p>Lítum á horn af gerðinni <span class="math notranslate nohighlight">\(2x\)</span> þar sem <span class="math notranslate nohighlight">\(x\)</span> er einhver tala. Við höfum eftirfarandi reglur um tvöföld horn:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 \sin(2x)&amp;=2 \cos(x) \sin(x) \\
 \quad\\
 \cos(2x)&amp;= \cos^2(x)-\sin^2(x) \\
 &amp;= 2\cos^2(x)-1 \\
 &amp;= 1-2 \sin^2(x)
-\end{aligned}\]</div>
-</div>
+\end{aligned}\end{split}\]</div>
 <p>Þessar reglur eru nytsamlegar í útreikningum.</p>
 </div>
 <div class="section" id="andhverfur-hornafallanna">
 <h2><span class="section-number">7.8. </span>Andhverfur hornafallanna<a class="headerlink" href="#andhverfur-hornafallanna" title="Varanlegur hlekkur á titilinn">¶</a></h2>
-<p><a class="tooltip" target="_blank">Andhverfur hornafallanna<span><staelink style="line-height:4px; font-size:80%;">Ekki fannst þýðing á hugtakinu: <i>Andhverfur hornafallanna</i></staelink></span></a>, bogafall ― <span class="math">\(\arcsin, \arccos\)</span> og <span class="math">\(\arctan\)</span> ― eru <a href="http://www.stae.is/os/leita/inverse" class="tooltip" target="_blank">andhverfur<span>en: <i>inverse</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> fallana <span class="math">\(\sin, \cos\)</span> og <span class="math">\(\tan\)</span>.</p>
+<p><a class="tooltip" target="_blank">Andhverfur hornafallanna<span><staelink style="line-height:4px; font-size:80%;">Ekki fannst þýðing á hugtakinu: <i>Andhverfur hornafallanna</i></staelink></span></a>, bogafall ― <span class="math notranslate nohighlight">\(\arcsin, \arccos\)</span> og <span class="math notranslate nohighlight">\(\arctan\)</span> ― eru <a href="http://www.stae.is/os/leita/inverse" class="tooltip" target="_blank">andhverfur<span>en: <i>inverse</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> fallana <span class="math notranslate nohighlight">\(\sin, \cos\)</span> og <span class="math notranslate nohighlight">\(\tan\)</span>.</p>
 <p>Skoðum aðeins jöfnuna</p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin(x) = 0\]</div>
-</div>
-<p>Hvað ef við viljum einangra <span class="math">\(x\)</span> út úr þessari jöfnu?
-Nú gæti einhver stungið upp á að <span class="math">\(x = 0\)</span> sé lausnin því að <span class="math">\(\sin(0) = 0\)</span>.
+<p>Hvað ef við viljum einangra <span class="math notranslate nohighlight">\(x\)</span> út úr þessari jöfnu?
+Nú gæti einhver stungið upp á að <span class="math notranslate nohighlight">\(x = 0\)</span> sé lausnin því að <span class="math notranslate nohighlight">\(\sin(0) = 0\)</span>.
 Það svar er rétt, en þó aðeins að hluta til, því að þessi jafna hefur í raun óendanlega margar lausnir.
-Tökum eftir að <span class="math">\(x = \pi\)</span> er einnig lausn á þessari jöfnu sem og <span class="math">\(x = 2 \pi\)</span>.
-Raunin er að <span class="math">\(n \cdot \pi\)</span> er lausn á þessari jöfnu fyrir öll <span class="math">\(n \in \mathbb{Z}\)</span>.</p>
-<p>Allar lausnirnar sem til eru á <span class="math">\(\sin(x) = 0\)</span> eru á forminu <span class="math">\(x=n \cdot \pi, \quad (n \in \mathbb{Z})\)</span>.
+Tökum eftir að <span class="math notranslate nohighlight">\(x = \pi\)</span> er einnig lausn á þessari jöfnu sem og <span class="math notranslate nohighlight">\(x = 2 \pi\)</span>.
+Raunin er að <span class="math notranslate nohighlight">\(n \cdot \pi\)</span> er lausn á þessari jöfnu fyrir öll <span class="math notranslate nohighlight">\(n \in \mathbb{Z}\)</span>.</p>
+<p>Allar lausnirnar sem til eru á <span class="math notranslate nohighlight">\(\sin(x) = 0\)</span> eru á forminu <span class="math notranslate nohighlight">\(x=n \cdot \pi, \quad (n \in \mathbb{Z})\)</span>.
 Þess vegna skrifum við stundum</p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin^{-1}(0) = \{n \pi ; \; n \in \mathbb{Z}\}\]</div>
-</div>
-<p>þar sem veldið <span class="math">\(^{-1}\)</span> táknar andhverft fall.
-Þetta gildir auðvitað um fleiri tölur en <span class="math">\(0\)</span>.</p>
-<p>Jafnan <span class="math">\(\sin(x) = a\)</span> hefur á sama hátt óendanlega margar lausnir <span class="math">\(x\)</span> fyrir öll <span class="math">\(a \in [−1, 1]\)</span>.
-Hins vegar er auðvelt að sjá að <strong>nákvæmlega ein</strong> af þessum lausnum er á bilinu <span class="math">\([−\pi/2, \pi/2]\)</span>.
-Við skilgreinum þess vegna nýtt fall <span class="math">\(\arcsin\)</span> sem að er þannig að</p>
-<div style="text-align: center;">
-<div class="math">
+<p>þar sem veldið <span class="math notranslate nohighlight">\(^{-1}\)</span> táknar andhverft fall.
+Þetta gildir auðvitað um fleiri tölur en <span class="math notranslate nohighlight">\(0\)</span>.</p>
+<p>Jafnan <span class="math notranslate nohighlight">\(\sin(x) = a\)</span> hefur á sama hátt óendanlega margar lausnir <span class="math notranslate nohighlight">\(x\)</span> fyrir öll <span class="math notranslate nohighlight">\(a \in [−1, 1]\)</span>.
+Hins vegar er auðvelt að sjá að <strong>nákvæmlega ein</strong> af þessum lausnum er á bilinu <span class="math notranslate nohighlight">\([−\pi/2, \pi/2]\)</span>.
+Við skilgreinum þess vegna nýtt fall <span class="math notranslate nohighlight">\(\arcsin\)</span> sem að er þannig að</p>
+<div class="math notranslate nohighlight">
 \[\arcsin(a) = x_0\]</div>
-</div>
-<p>þá og því aðeins að <span class="math">\(x_0\)</span> sé talan af bilinu <span class="math">\([−\pi/2, \pi/2]\)</span> sem uppfyllir jöfnuna</p>
-<div style="text-align: center;">
-<div class="math">
+<p>þá og því aðeins að <span class="math notranslate nohighlight">\(x_0\)</span> sé talan af bilinu <span class="math notranslate nohighlight">\([−\pi/2, \pi/2]\)</span> sem uppfyllir jöfnuna</p>
+<div class="math notranslate nohighlight">
 \[\sin(x_0) = a\]</div>
-</div>
-<p>Því er <span class="math">\(arcsin\)</span> hálfgerð andhverfa sínusfallsins vegna þess að</p>
-<div style="text-align: center;">
-<div class="math">
+<p>Því er <span class="math notranslate nohighlight">\(arcsin\)</span> hálfgerð andhverfa sínusfallsins vegna þess að</p>
+<div class="math notranslate nohighlight">
 \[\sin(\arcsin(x)) = x \qquad \text{fyrir öll } x \in [−1, 1]\]</div>
-</div>
 <p><strong>Hún nær þó ekki að verða algjör andhverfa því að það öfuga gildir ekki</strong>.
-Það er, ekki er hægt að fullyrða að <span class="math">\(\arcsin(\sin(x))\)</span> sé jafnt og x.
-Til dæmis er <span class="math">\(\sin(2\pi) = 0\)</span> og <span class="math">\(\arcsin(0) = 0\)</span> og því fæst</p>
-<div style="text-align: center;">
-<div class="math">
+Það er, ekki er hægt að fullyrða að <span class="math notranslate nohighlight">\(\arcsin(\sin(x))\)</span> sé jafnt og x.
+Til dæmis er <span class="math notranslate nohighlight">\(\sin(2\pi) = 0\)</span> og <span class="math notranslate nohighlight">\(\arcsin(0) = 0\)</span> og því fæst</p>
+<div class="math notranslate nohighlight">
 \[\arcsin(\sin(2\pi)) = \arcsin(\sin(0)) = 0\]</div>
-</div>
 <p>Við skulum nú skilgreina andhverfur allra hornafallanna formlega:</p>
 <div class="section" id="id2">
 <h3><span class="section-number">7.8.1. </span>Skilgreining<a class="headerlink" href="#id2" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <div class="section" id="andhverfa-sinusar">
 <h4><span class="section-number">7.8.1.1. </span>Andhverfa sínusar<a class="headerlink" href="#andhverfa-sinusar" title="Varanlegur hlekkur á titilinn">¶</a></h4>
-<p><span class="math">\(\arcsin: \; [-1,1] \rightarrow [−\pi/2, \pi/2]\)</span> er fallið sem uppfyllir</p>
-<div style="text-align: center;">
-<div class="math">
+<p><span class="math notranslate nohighlight">\(\arcsin: \; [-1,1] \rightarrow [−\pi/2, \pi/2]\)</span> er fallið sem uppfyllir</p>
+<div class="math notranslate nohighlight">
 \[\sin(\arcsin(x)) = x \qquad \text{fyrir öll  } x \in [−1, 1]\]</div>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">Aðvörun</p>
-<p>Athugum að <span class="math">\(\arcsin(x)\)</span> er oft ritað <span class="math">\(\sin^{-1}(x)\)</span></p>
+<p>Athugum að <span class="math notranslate nohighlight">\(\arcsin(x)\)</span> er oft ritað <span class="math notranslate nohighlight">\(\sin^{-1}(x)\)</span></p>
 </div>
 <a class="reference internal image-reference" href="_images/arcsin.svg"><img alt="_images/arcsin.svg" class="align-center" src="_images/arcsin.svg" width="50%" /></a>
-<p>Hér er graf <span class="math">\(\arcsin(x)\)</span>.</p>
+<p>Hér er graf <span class="math notranslate nohighlight">\(\arcsin(x)\)</span>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Dæmi</p>
-<p>Hverjar eru lausnir <span class="math">\(\sin(v)=\frac12\)</span>, þ.e. hvað er <span class="math">\(\sin^{-1} \left(\frac12 \right)\)</span> ?</p>
-<p>Hér er gildið <span class="math">\(\frac12 &gt;0\)</span> og því leitum við að lausnum á fyrsta og öðrum fjórðungi einingahringsins, því þar er <span class="math">\(\sin(v)\geq 0\)</span>.</p>
+<p>Hverjar eru lausnir <span class="math notranslate nohighlight">\(\sin(v)=\frac12\)</span>, þ.e. hvað er <span class="math notranslate nohighlight">\(\sin^{-1} \left(\frac12 \right)\)</span> ?</p>
+<p>Hér er gildið <span class="math notranslate nohighlight">\(\frac12 &gt;0\)</span> og því leitum við að lausnum á fyrsta og öðrum fjórðungi einingahringsins, því þar er <span class="math notranslate nohighlight">\(\sin(v)\geq 0\)</span>.</p>
 <p>Skoðum einingarhringinn:</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/hringad1.svg"><img alt="_images/hringad1.svg" src="_images/hringad1.svg" width="100%" /></a>
 </div>
-<p>Við sjáum að þegar <span class="math">\(v=\frac{\pi}{6}=30^\circ\)</span> þá er <span class="math">\(\sin(v) = \frac12\)</span>. Það gildir líka þegar <span class="math">\(v=\frac{5\pi}{6} = 150^\circ\)</span>, því <span class="math">\(\sin(\pi-u) = \sin(u)\)</span> fyrir öll <span class="math">\(u\)</span> .</p>
-<p>Því eru allar lausnir <span class="math">\(\sin(v)=\frac12\)</span></p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}v =
+<p>Við sjáum að þegar <span class="math notranslate nohighlight">\(v=\frac{\pi}{6}=30^\circ\)</span> þá er <span class="math notranslate nohighlight">\(\sin(v) = \frac12\)</span>. Það gildir líka þegar <span class="math notranslate nohighlight">\(v=\frac{5\pi}{6} = 150^\circ\)</span>, því <span class="math notranslate nohighlight">\(\sin(\pi-u) = \sin(u)\)</span> fyrir öll <span class="math notranslate nohighlight">\(u\)</span> .</p>
+<p>Því eru allar lausnir <span class="math notranslate nohighlight">\(\sin(v)=\frac12\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}v =
 \begin{cases}
 \frac{\pi}{6} + n\cdot 2\pi \\
 \frac{5\pi}{6} + n \cdot 2\pi
-\end{cases}\end{aligned}\]</div>
-</div>
-<p>fyrir öll <span class="math">\(n \in \mathbb{Z}\)</span>, eins og sjá má á mynd hér að neðan:</p>
+\end{cases}\end{split}\]</div>
+<p>fyrir öll <span class="math notranslate nohighlight">\(n \in \mathbb{Z}\)</span>, eins og sjá má á mynd hér að neðan:</p>
 <a class="reference internal image-reference" href="_images/hringad1a.svg"><img alt="_images/hringad1a.svg" class="align-center" src="_images/hringad1a.svg" width="100%" /></a>
 </div>
 </div>
 <div class="section" id="andhverfa-kosinusar">
 <h4><span class="section-number">7.8.1.2. </span>Andhverfa kósínusar<a class="headerlink" href="#andhverfa-kosinusar" title="Varanlegur hlekkur á titilinn">¶</a></h4>
-<p><span class="math">\(\arccos: \; [-1,1] \rightarrow [0, \pi]\)</span> er fallið sem uppfyllir</p>
-<div style="text-align: center;">
-<div class="math">
+<p><span class="math notranslate nohighlight">\(\arccos: \; [-1,1] \rightarrow [0, \pi]\)</span> er fallið sem uppfyllir</p>
+<div class="math notranslate nohighlight">
 \[\cos(\arccos(x)) = x \qquad \text{fyrir öll  } x \in [−1, 1].\]</div>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">Aðvörun</p>
-<p>Athugum að <span class="math">\(\arccos(x)\)</span> er oft ritað <span class="math">\(\cos^{-1}(x)\)</span>.</p>
+<p>Athugum að <span class="math notranslate nohighlight">\(\arccos(x)\)</span> er oft ritað <span class="math notranslate nohighlight">\(\cos^{-1}(x)\)</span>.</p>
 </div>
 <a class="reference internal image-reference" href="_images/arccos.svg"><img alt="_images/arccos.svg" class="align-center" src="_images/arccos.svg" width="50%" /></a>
-<p>Hér er graf <span class="math">\(\arccos(v)\)</span>.</p>
+<p>Hér er graf <span class="math notranslate nohighlight">\(\arccos(v)\)</span>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Dæmi</p>
-<p>Hverjar eru lausnir <span class="math">\(\cos(x)=\frac{\sqrt{3}}{2}\)</span>, þ.e. hvað er <span class="math">\(\cos^{-1}\left( \frac{\sqrt{3}}{2} \right)\)</span>?</p>
-<p>Hér er <span class="math">\(\frac{\sqrt{3}}{2} &gt;0\)</span> svo við skoðum lausnir á fyrsta og fjórða fjórðungi einingahringsins, því þar er <span class="math">\(\cos(u)&gt;0\)</span>.</p>
+<p>Hverjar eru lausnir <span class="math notranslate nohighlight">\(\cos(x)=\frac{\sqrt{3}}{2}\)</span>, þ.e. hvað er <span class="math notranslate nohighlight">\(\cos^{-1}\left( \frac{\sqrt{3}}{2} \right)\)</span>?</p>
+<p>Hér er <span class="math notranslate nohighlight">\(\frac{\sqrt{3}}{2} &gt;0\)</span> svo við skoðum lausnir á fyrsta og fjórða fjórðungi einingahringsins, því þar er <span class="math notranslate nohighlight">\(\cos(u)&gt;0\)</span>.</p>
 <p>Skoðum einingarhringinn:</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/hringad2.svg"><img alt="_images/hringad2.svg" src="_images/hringad2.svg" width="100%" /></a>
 </div>
 <p>Við sjáum að</p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos\left(\frac{\pi}{4}\right)= \frac{\sqrt{3}}{2}\]</div>
-</div>
 <p>Þá er líka</p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos\left(\frac{-\pi}{4}\right) = \cos\left(\frac{7\pi}{4}\right) = \frac{\sqrt{3}}{2}\]</div>
-</div>
-<p>því <span class="math">\(\cos(u) = \cos(-u)\)</span> fyrir öll <span class="math">\(u\)</span>.</p>
-<p>Þá eru allar lausnir <span class="math">\(\cos(v)=\frac{\sqrt{3}}{2}\)</span></p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}v =
+<p>því <span class="math notranslate nohighlight">\(\cos(u) = \cos(-u)\)</span> fyrir öll <span class="math notranslate nohighlight">\(u\)</span>.</p>
+<p>Þá eru allar lausnir <span class="math notranslate nohighlight">\(\cos(v)=\frac{\sqrt{3}}{2}\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}v =
 \begin{cases}
 \frac{\pi}{4} + n\cdot 2\pi \\
 \frac{-\pi}{4} + n \cdot 2\pi
-\end{cases}\end{aligned}\]</div>
-</div>
-<p>fyrir öll <span class="math">\(n \in \mathbb{Z}\)</span>, eins og sjá má á mynd hér að neðan:</p>
+\end{cases}\end{split}\]</div>
+<p>fyrir öll <span class="math notranslate nohighlight">\(n \in \mathbb{Z}\)</span>, eins og sjá má á mynd hér að neðan:</p>
 <a class="reference internal image-reference" href="_images/hringad2a.svg"><img alt="_images/hringad2a.svg" class="align-center" src="_images/hringad2a.svg" width="100%" /></a>
 </div>
 </div>
 <div class="section" id="andhverfa-tangens">
 <h4><span class="section-number">7.8.1.3. </span>Andhverfa tangens<a class="headerlink" href="#andhverfa-tangens" title="Varanlegur hlekkur á titilinn">¶</a></h4>
-<p><span class="math">\(\arctan: \; [-\infty,\infty] \rightarrow [−\pi/2, \pi/2]\)</span> er fallið sem uppfyllir</p>
-<div style="text-align: center;">
-<div class="math">
+<p><span class="math notranslate nohighlight">\(\arctan: \; [-\infty,\infty] \rightarrow [−\pi/2, \pi/2]\)</span> er fallið sem uppfyllir</p>
+<div class="math notranslate nohighlight">
 \[\tan(\arctan(x)) = x \qquad \text{fyrir öll  } x \in [−\infty, \infty]\]</div>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">Aðvörun</p>
-<p>Athugum að <span class="math">\(\arctan(x)\)</span> er oft ritað <span class="math">\(\tan^{-1}(x)\)</span>.</p>
+<p>Athugum að <span class="math notranslate nohighlight">\(\arctan(x)\)</span> er oft ritað <span class="math notranslate nohighlight">\(\tan^{-1}(x)\)</span>.</p>
 </div>
 <a class="reference internal image-reference" href="_images/arctan.svg"><img alt="_images/arctan.svg" class="align-center" src="_images/arctan.svg" width="50%" /></a>
-<p>Hér er graf <span class="math">\(\arctan(v)\)</span>.</p>
+<p>Hér er graf <span class="math notranslate nohighlight">\(\arctan(v)\)</span>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Dæmi</p>
-<p>Hverjar eru lausnir <span class="math">\(\tan(v)=-\sqrt{3}\)</span>, þ.e. hvað er <span class="math">\(\tan^{-1} (-\sqrt{3})\)</span> ?</p>
-<p>Hér er <span class="math">\(-\sqrt{3} &lt;0\)</span> svo við skoðum lausnir á öðrum og fjórða fjórðungi einingahringsins því þar er <span class="math">\(\tan(u)&lt;0\)</span>.</p>
-<p><span class="math">\(\tan(v)\)</span> er hlutfallið á milli <span class="math">\(\sin(v)\)</span> og <span class="math">\(\cos(v)\)</span> og út frá einingarhringnum getum við fundið að þegar <span class="math">\(v=\frac{2\pi}{3}\)</span> þá er <span class="math">\(\sin(v) = \frac{\sqrt{3}}{2}\)</span> og <span class="math">\(\cos(v) = -\frac12\)</span>.</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<p>Hverjar eru lausnir <span class="math notranslate nohighlight">\(\tan(v)=-\sqrt{3}\)</span>, þ.e. hvað er <span class="math notranslate nohighlight">\(\tan^{-1} (-\sqrt{3})\)</span> ?</p>
+<p>Hér er <span class="math notranslate nohighlight">\(-\sqrt{3} &lt;0\)</span> svo við skoðum lausnir á öðrum og fjórða fjórðungi einingahringsins því þar er <span class="math notranslate nohighlight">\(\tan(u)&lt;0\)</span>.</p>
+<p><span class="math notranslate nohighlight">\(\tan(v)\)</span> er hlutfallið á milli <span class="math notranslate nohighlight">\(\sin(v)\)</span> og <span class="math notranslate nohighlight">\(\cos(v)\)</span> og út frá einingarhringnum getum við fundið að þegar <span class="math notranslate nohighlight">\(v=\frac{2\pi}{3}\)</span> þá er <span class="math notranslate nohighlight">\(\sin(v) = \frac{\sqrt{3}}{2}\)</span> og <span class="math notranslate nohighlight">\(\cos(v) = -\frac12\)</span>.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 \tan(v) &amp;= \frac{\sin(v)}{\cos(v)} \\
 &amp;= \frac{\sqrt{3}/2}{-1/2} \\
 &amp;= -\sqrt{3}
-\end{aligned}\]</div>
-</div>
-<p>Önnur lausn er <span class="math">\(v=\frac{5\pi}{3}\)</span>, því <span class="math">\(\tan(u) = \tan(u+\pi)\)</span>.
+\end{aligned}\end{split}\]</div>
+<p>Önnur lausn er <span class="math notranslate nohighlight">\(v=\frac{5\pi}{3}\)</span>, því <span class="math notranslate nohighlight">\(\tan(u) = \tan(u+\pi)\)</span>.
 Við getum sannfært okkur um að það passi með því að reikna:</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 \tan\left(\frac{5\pi}{3}\right) &amp;= \frac{\sin(5\pi/3)}{\cos(5\pi/3)} \\
 &amp;= \frac{-\sqrt{3}/2}{1/2} \\
 &amp;= - \sqrt{3}
-\end{aligned}\]</div>
-</div>
+\end{aligned}\end{split}\]</div>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/hringad3.svg"><img alt="_images/hringad3.svg" src="_images/hringad3.svg" width="100%" /></a>
 </div>
-<p>Þá eru allar lausnir <span class="math">\(\tan(v)=-\sqrt{3}\)</span></p>
-<div style="text-align: center;">
-<div class="math">
+<p>Þá eru allar lausnir <span class="math notranslate nohighlight">\(\tan(v)=-\sqrt{3}\)</span></p>
+<div class="math notranslate nohighlight">
 \[v=\frac{2\pi}{3} + n \cdot \pi\]</div>
-</div>
-<p>fyrir öll <span class="math">\(n \in \mathbb{Z}\)</span>, eins og sjá má á mynd hér að neðan:</p>
+<p>fyrir öll <span class="math notranslate nohighlight">\(n \in \mathbb{Z}\)</span>, eins og sjá má á mynd hér að neðan:</p>
 <a class="reference internal image-reference" href="_images/hringad3a.svg"><img alt="_images/hringad3a.svg" class="align-center" src="_images/hringad3a.svg" width="100%" /></a>
 </div>
 </div>
@@ -1023,25 +953,19 @@ Við getum sannfært okkur um að það passi með því að reikna:</p>
 <div class="section" id="regla-pyagorasar">
 <h3><span class="section-number">7.9.1. </span>Regla Pýþagórasar<a class="headerlink" href="#regla-pyagorasar" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p>Rifjum upp að fyrir <a href="http://www.stae.is/os/leita/right_triangle" class="tooltip" target="_blank">rétthyrndan þríhyrning<span>en: <i>right triangle</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> gildir</p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[a^2+b^2=c^2\]</div>
-</div>
-<p>þar sem <span class="math">\(c\)</span> er langhliðin. Þessi regla nefnist regla Pýþagórasar.</p>
-<p>Með því að horfa á einingarhringinn fáum við samband á milli kósínusar og sínusar, með hjálp reglu Pýþagórasar. Við skilgreindum kósínus sem <span class="math">\(x\)</span>-hnit og sínus sem <span class="math">\(y\)</span>-hnit. Við vitum að langhliðin hefur lengd <span class="math">\(1\)</span> þar sem hringurinn hefur radíus <span class="math">\(1\)</span>. Við fáum því:</p>
-<div style="text-align: center;">
-<div class="math">
+<p>þar sem <span class="math notranslate nohighlight">\(c\)</span> er langhliðin. Þessi regla nefnist regla Pýþagórasar.</p>
+<p>Með því að horfa á einingarhringinn fáum við samband á milli kósínusar og sínusar, með hjálp reglu Pýþagórasar. Við skilgreindum kósínus sem <span class="math notranslate nohighlight">\(x\)</span>-hnit og sínus sem <span class="math notranslate nohighlight">\(y\)</span>-hnit. Við vitum að langhliðin hefur lengd <span class="math notranslate nohighlight">\(1\)</span> þar sem hringurinn hefur radíus <span class="math notranslate nohighlight">\(1\)</span>. Við fáum því:</p>
+<div class="math notranslate nohighlight">
 \[\cos^2(\alpha)+\sin^2(\alpha)=1\]</div>
-</div>
 <img alt="_images/pythagoras.svg" class="align-center" src="_images/pythagoras.svg" /></div>
 <div class="section" id="sinusreglan">
 <h3><span class="section-number">7.9.2. </span>Sínusreglan<a class="headerlink" href="#sinusreglan" title="Varanlegur hlekkur á titilinn">¶</a></h3>
-<p>Í <span class="math">\(\triangle ABC\)</span> gildir</p>
-<div style="text-align: center;">
-<div class="math">
+<p>Í <span class="math notranslate nohighlight">\(\triangle ABC\)</span> gildir</p>
+<div class="math notranslate nohighlight">
 \[\frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}\]</div>
-</div>
-<p>Þar sem <span class="math">\(A\)</span>, <span class="math">\(B\)</span> og <span class="math">\(C\)</span> eru horn þríhyrningsins og <span class="math">\(a\)</span>, <span class="math">\(b\)</span> og <span class="math">\(c\)</span> eru lengdir hliðanna</p>
+<p>Þar sem <span class="math notranslate nohighlight">\(A\)</span>, <span class="math notranslate nohighlight">\(B\)</span> og <span class="math notranslate nohighlight">\(C\)</span> eru horn þríhyrningsins og <span class="math notranslate nohighlight">\(a\)</span>, <span class="math notranslate nohighlight">\(b\)</span> og <span class="math notranslate nohighlight">\(c\)</span> eru lengdir hliðanna</p>
 <hr class="docutils" />
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/thrihr.svg"><img alt="_images/thrihr.svg" src="_images/thrihr.svg" width="50%" /></a>
@@ -1049,34 +973,29 @@ Við getum sannfært okkur um að það passi með því að reikna:</p>
 </div>
 <div class="section" id="kosinusreglan">
 <h3><span class="section-number">7.9.3. </span>Kósínusreglan<a class="headerlink" href="#kosinusreglan" title="Varanlegur hlekkur á titilinn">¶</a></h3>
-<p>Í <span class="math">\(\triangle ABC\)</span> gildir</p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<p>Í <span class="math notranslate nohighlight">\(\triangle ABC\)</span> gildir</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 a^2 &amp;= b^2+c^2-2\cdot b \cdot c \cdot \cos(A) \\
 b^2 &amp;= a^2+c^2-2\cdot a \cdot c \cdot \cos(B) \\
 c^2 &amp;= b^2+a^2-2\cdot b \cdot a \cdot \cos(C) \\
-\end{aligned}\]</div>
-</div>
+\end{aligned}\end{split}\]</div>
 </div>
 </div>
 <div class="section" id="hornafallareglurnar">
 <h2><span class="section-number">7.10. </span>Hornafallareglurnar<a class="headerlink" href="#hornafallareglurnar" title="Varanlegur hlekkur á titilinn">¶</a></h2>
-<p>Athugið að horn eru yfirleitt táknuð með stöfum á borð við <span class="math">\(\theta\)</span> , <span class="math">\(\alpha\)</span> , <span class="math">\(u\)</span> og <span class="math">\(v\)</span>.
-Hornaföll eru jafnan táknuð sem föll af <span class="math">\(x\)</span>.</p>
+<p>Athugið að horn eru yfirleitt táknuð með stöfum á borð við <span class="math notranslate nohighlight">\(\theta\)</span> , <span class="math notranslate nohighlight">\(\alpha\)</span> , <span class="math notranslate nohighlight">\(u\)</span> og <span class="math notranslate nohighlight">\(v\)</span>.
+Hornaföll eru jafnan táknuð sem föll af <span class="math notranslate nohighlight">\(x\)</span>.</p>
 <p>Hér á eftir koma reglur sem eru mikið notaðar.</p>
 <div class="section" id="grunnreglan">
 <h3><span class="section-number">7.10.1. </span>Grunnreglan<a class="headerlink" href="#grunnreglan" title="Varanlegur hlekkur á titilinn">¶</a></h3>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin^2(\theta) + \cos^2(\theta) = 1\]</div>
-</div>
 </div>
 <div class="section" id="hlirunarreglur">
 <h3><span class="section-number">7.10.2. </span>Hliðrunarreglur<a class="headerlink" href="#hlirunarreglur" title="Varanlegur hlekkur á titilinn">¶</a></h3>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 1.&amp; \qquad \cos(-\theta)=\cos \theta\\
 2.&amp; \qquad \sin(-\theta)=-\sin\theta\\
 3.&amp; \qquad \cos(\pi-\theta)=-\cos \theta\\
@@ -1085,129 +1004,88 @@ Hornaföll eru jafnan táknuð sem föll af <span class="math">\(x\)</span>.</p>
 6.&amp; \qquad \sin(\theta+\pi)=-\sin \theta\\
 7.&amp; \qquad \cos\left(\frac{\pi}{2}-\theta\right)=\sin\theta\\
 8.&amp; \qquad \sin\left(\frac{\pi}{2}-\theta\right)=\cos\theta
-\end{aligned}\]</div>
-</div>
+\end{aligned}\end{split}\]</div>
 </div>
 <div class="section" id="summuformulur">
 <h3><span class="section-number">7.10.3. </span>Summuformúlur<a class="headerlink" href="#summuformulur" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p><strong>1.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin( u + v ) = \sin(u)  \cos(v) + \cos(u) \sin(v)\]</div>
-</div>
 <p><strong>2.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin( u - v ) = \sin(u) \cos(v) - \cos(u) \sin(v)\]</div>
-</div>
 <p><strong>3.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos( u + v ) = \cos(u)  \cos(v) - \sin(u)  \sin(v)\]</div>
-</div>
 <p><strong>4.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos( u - v ) = \cos(u)  \cos(v) + \sin(u)  \sin(v)\]</div>
-</div>
 <p><strong>5.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\tan(u-v) = \frac{\tan(u) - \tan(v)}{1 + \tan(u)  \tan(v)}\]</div>
-</div>
 <p><strong>6.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\tan(u+v) = \frac{\tan(u) + \tan(v)}{1 - \tan(u)  \tan(v)}\]</div>
-</div>
 </div>
 <div class="section" id="tvofoldunarformulur">
 <h3><span class="section-number">7.10.4. </span>Tvöföldunarformúlur<a class="headerlink" href="#tvofoldunarformulur" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p><strong>1.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin(2u) = 2\sin(u)\cos(u)\]</div>
-</div>
 <p><strong>2.</strong></p>
-<div style="text-align: center;">
-<div class="math">
-\[\begin{aligned}
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
 \cos(2u)&amp;= \cos^2(u)-\sin^2(u) \\
 &amp;= 2\cos^2(u)-1 \\
 &amp;= 1-2 \sin^2(u)
-\end{aligned}\]</div>
-</div>
+\end{aligned}\end{split}\]</div>
 <p><strong>3.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\tan(2u) = \frac{2\tan(u)}{1-\tan^2(u)}\]</div>
-</div>
 </div>
 <div class="section" id="helmingunarformulur">
 <h3><span class="section-number">7.10.5. </span>Helmingunarformúlur<a class="headerlink" href="#helmingunarformulur" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p><strong>1.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin^2(u) = \frac{1- \cos(2u)}{2} \qquad \text{eða} \qquad \sin\left(\frac{u}{2}\right) = \pm \sqrt{\frac{1- \cos(u)}{2} }\]</div>
-</div>
 <p><strong>2.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos^2(u) = \frac{1+ \cos(2u)}{2} \qquad \text{eða} \qquad \cos\left(\frac{u}{2}\right) = \pm \sqrt{\frac{1+ \cos(u)}{2} }\]</div>
-</div>
 <p><strong>3.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\tan^2(u) = \frac{1- \cos(2u)}{1+\cos(2u)} \qquad \text{eða} \qquad \tan\left(\frac{u}{2}\right) = \pm \sqrt{\frac{1- \cos(u)}{1+\cos(u)} }\]</div>
-</div>
 </div>
 <div class="section" id="summu-og-margfeldisformulur">
 <h3><span class="section-number">7.10.6. </span>Summu- og margfeldisformúlur<a class="headerlink" href="#summu-og-margfeldisformulur" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p><strong>Margfeldisritháttur í summurithátt</strong></p>
 <blockquote>
 <div><p><strong>1.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin(u)\sin(v) = \frac{1}{2}\left(\cos(u-v) - \cos(u+v)\right)\]</div>
-</div>
 <p><strong>2.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos(u)\cos(v) = \frac{1}{2}\left(\cos(u-v) + \cos(u+v)\right)\]</div>
-</div>
 <p><strong>3.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin(u)\cos(v) = \frac{1}{2}\left(\sin(u+v) + \sin(u-v)\right)\]</div>
-</div>
 <p><strong>4.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos(u)\sin(v) = \frac{1}{2}\left(\sin(u+v) - \sin(u-v)\right)\]</div>
-</div>
 </div></blockquote>
 <p><strong>Summuritháttur í margfeldisrithátt</strong></p>
 <blockquote>
 <div><p><strong>1.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin(u) + \sin(v) = 2\sin\left(\frac{u+v}{2}\right)\cos\left(\frac{u-v}{2}\right)\]</div>
-</div>
 <p><strong>2.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\sin(u) - \sin(v) = 2\cos\left(\frac{u+v}{2}\right)\sin\left(\frac{u-v}{2}\right)\]</div>
-</div>
 <p><strong>3.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos(u) + \cos(v) = 2\cos\left(\frac{u+v}{2}\right)\cos\left(\frac{u-v}{2}\right)\]</div>
-</div>
 <p><strong>4.</strong></p>
-<div style="text-align: center;">
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\cos(u) - \cos(v) = -2\sin\left(\frac{u+v}{2}\right)\sin\left(\frac{u-v}{2}\right)\]</div>
-</div>
 </div></blockquote>
 </div>
 </div>
@@ -1254,7 +1132,7 @@ Hornaföll eru jafnan táknuð sem föll af <span class="math">\(x\)</span>.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'2018',
+            VERSION:'2020',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
@@ -1264,9 +1142,7 @@ Hornaföll eru jafnan táknuð sem föll af <span class="math">\(x\)</span>.</p>
       <script type="text/javascript" src="_static/underscore.js"></script>
       <script type="text/javascript" src="_static/doctools.js"></script>
       <script type="text/javascript" src="_static/language_data.js"></script>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/katex.min.js"></script>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/contrib/auto-render.min.js"></script>
-      <script type="text/javascript" src="_static/rendermath.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   
 
